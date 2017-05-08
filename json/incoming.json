@@ -1,0 +1,5006 @@
+[
+  {
+    "id": 62979627,
+    "leagueId": 4238643,
+    "value": 11446512,
+    "price": 16254030,
+    "weekNr": 2,
+    "startDay": 0,
+    "timestamp": 1494196859,
+    "player": {
+      "id": 249084383,
+      "assets": [
+        {
+          "id": 4994,
+          "type": 0,
+          "value": "Alessio Romagnoli.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Small/b070633ceec4058764f1624b93b84974e2b48638.png?v=1448636686"
+        },
+        {
+          "id": 1926,
+          "type": 1,
+          "value": "Alessio Romagnoli.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Normal/b070633ceec4058764f1624b93b84974e2b48638.png?v=1448636686"
+        }
+      ],
+      "fullName": "Alessio Romagnoli",
+      "name": "Romagnoli A.",
+      "position": 3,
+      "statAtt": 6,
+      "statDef": 88,
+      "statOvr": 47,
+      "age": 22,
+      "teamId": 10,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 100,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 11446512,
+      "yellowCards": 0,
+      "trainingProgress": 19,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 14,
+        "code": "IT",
+        "name": "Italiaanse"
+      }
+    },
+    "destinationTeam": {
+      "id": 10,
+      "uniqueId": "4238643_10",
+      "assets": [
+        {
+          "id": 8144,
+          "type": 3,
+          "value": "mancity.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/425caff1f88e908b0797d1fdef9bb2c20e0e7c34.png?v=1477492241"
+        },
+        {
+          "id": 8145,
+          "type": 4,
+          "value": "mancity.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/425caff1f88e908b0797d1fdef9bb2c20e0e7c34.png?v=1477492241"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Manchester City",
+      "city": "Manchester",
+      "goal": 1,
+      "stadiumName": "Etihad Stadium",
+      "stadiumCapacity": 55097,
+      "ranking": 8,
+      "stadiumLevel": 0,
+      "previousRanking": 5,
+      "budget": 1500000
+    },
+    "sourceTeam": {
+      "id": 52978,
+      "uniqueId": "4238643_52978",
+      "assets": [
+        {
+          "id": 1906,
+          "type": 4,
+          "value": "AC Milan.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/07b54abec6492788b572f1b511730979e8b9cfcd.png?v=0"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "AC Milan",
+      "city": "Milan",
+      "goal": 0,
+      "stadiumName": "San Siro",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    }
+  },
+  {
+    "id": 62979104,
+    "leagueId": 4238643,
+    "value": 7575057,
+    "price": 11211000,
+    "weekNr": 2,
+    "startDay": 0,
+    "timestamp": 1494192682,
+    "player": {
+      "id": 249118841,
+      "assets": [
+        {
+          "id": 4800,
+          "type": 0,
+          "value": "Mattia Perin.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Small/74275c580da443bf28730cf0fa4e4236af727711.png?v=1462843100"
+        },
+        {
+          "id": 2045,
+          "type": 1,
+          "value": "Mattia Perin.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Normal/74275c580da443bf28730cf0fa4e4236af727711.png?v=1462843100"
+        }
+      ],
+      "fullName": "Mattia Perin",
+      "name": "Perin",
+      "position": 4,
+      "statAtt": 0,
+      "statDef": 85,
+      "statOvr": 42,
+      "age": 24,
+      "teamId": 13,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 100,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 1,
+      "price": 0,
+      "value": 7575057,
+      "yellowCards": 0,
+      "trainingProgress": 30,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 14,
+        "code": "IT",
+        "name": "Italiaanse"
+      }
+    },
+    "destinationTeam": {
+      "id": 13,
+      "uniqueId": "4238643_13",
+      "assets": [
+        {
+          "id": 8136,
+          "type": 3,
+          "value": "hullcity.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/a8202d1f77204f35d030685e449ac93362c26552.png?v=1477492229"
+        },
+        {
+          "id": 8137,
+          "type": 4,
+          "value": "hullcity.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/a8202d1f77204f35d030685e449ac93362c26552.png?v=1477492229"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Hull City",
+      "city": "Kingston upon Hull",
+      "goal": 11,
+      "stadiumName": "KCOM Stadium",
+      "stadiumCapacity": 25404,
+      "ranking": 19,
+      "stadiumLevel": 0,
+      "previousRanking": 19,
+      "budget": 1000000
+    },
+    "sourceTeam": {
+      "id": 52974,
+      "uniqueId": "4238643_52974",
+      "assets": [
+        {
+          "id": 1914,
+          "type": 4,
+          "value": "Genoa.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/c0959d2fd4bd959f4393946e62cf7f141c69ddce.png?v=0"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Genoa",
+      "city": "Genoa",
+      "goal": 0,
+      "stadiumName": "Luigi Ferraris",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    }
+  },
+  {
+    "id": 62974875,
+    "leagueId": 4238643,
+    "value": 9789115,
+    "price": 15196222,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494179150,
+    "player": {
+      "id": 249058883,
+      "assets": [],
+      "fullName": "Jean Micha�l Seri",
+      "name": "Seri",
+      "position": 2,
+      "statAtt": 81,
+      "statDef": 83,
+      "statOvr": 82,
+      "age": 25,
+      "teamId": 17,
+      "leagueId": 4238643,
+      "fitness": 96,
+      "morale": 95,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 9,
+      "price": 0,
+      "value": 9789115,
+      "yellowCards": 0,
+      "trainingProgress": 15,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 7,
+      "averagePlayerGrade": 7.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 254,
+        "code": "CI",
+        "name": "Ivoriaanse"
+      }
+    },
+    "destinationTeam": {
+      "id": 17,
+      "uniqueId": "4238643_17",
+      "assets": [
+        {
+          "id": 8156,
+          "type": 3,
+          "value": "swansea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/3a7da17261a3d30eea66822c964cf7af5e92ba6f.png?v=1477492266"
+        },
+        {
+          "id": 8157,
+          "type": 4,
+          "value": "swansea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/3a7da17261a3d30eea66822c964cf7af5e92ba6f.png?v=1477492266"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Swansea City",
+      "city": "Swansea",
+      "goal": 11,
+      "stadiumName": "Liberty Stadium",
+      "stadiumCapacity": 20972,
+      "ranking": 12,
+      "stadiumLevel": 0,
+      "previousRanking": 17,
+      "budget": 1000000
+    },
+    "sourceTeam": {
+      "id": 51444,
+      "uniqueId": "4238643_51444",
+      "assets": [
+        {
+          "id": 9124,
+          "type": 3,
+          "value": "OGC-Nice.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/5104230464865a69095a81101b4a9e87fdc76474.png?v=1477672087"
+        },
+        {
+          "id": 9125,
+          "type": 4,
+          "value": "OGC-Nice.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/5104230464865a69095a81101b4a9e87fdc76474.png?v=1477672087"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Nice",
+      "city": "Nice",
+      "goal": 0,
+      "stadiumName": "Allianz Riviera",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    }
+  },
+  {
+    "id": 62974860,
+    "leagueId": 4238643,
+    "value": 7158269,
+    "price": 12933297,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494179097,
+    "player": {
+      "id": 248550122,
+      "assets": [],
+      "fullName": "Ben Davies",
+      "name": "Davies B.",
+      "position": 3,
+      "statAtt": 34,
+      "statDef": 81,
+      "statOvr": 57,
+      "age": 24,
+      "teamId": 17,
+      "leagueId": 4238643,
+      "fitness": 98,
+      "morale": 88,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 3,
+      "price": 0,
+      "value": 7158269,
+      "yellowCards": 1,
+      "trainingProgress": 24,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 6,
+      "averagePlayerGrade": 6.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 245,
+        "code": "WA",
+        "name": "Welsh"
+      }
+    },
+    "destinationTeam": {
+      "id": 17,
+      "uniqueId": "4238643_17",
+      "assets": [
+        {
+          "id": 8156,
+          "type": 3,
+          "value": "swansea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/3a7da17261a3d30eea66822c964cf7af5e92ba6f.png?v=1477492266"
+        },
+        {
+          "id": 8157,
+          "type": 4,
+          "value": "swansea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/3a7da17261a3d30eea66822c964cf7af5e92ba6f.png?v=1477492266"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Swansea City",
+      "city": "Swansea",
+      "goal": 11,
+      "stadiumName": "Liberty Stadium",
+      "stadiumCapacity": 20972,
+      "ranking": 12,
+      "stadiumLevel": 0,
+      "previousRanking": 17,
+      "budget": 1000000
+    },
+    "sourceTeam": {
+      "id": 18,
+      "uniqueId": "4238643_18",
+      "assets": [
+        {
+          "id": 8158,
+          "type": 3,
+          "value": "hotspur.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/8f43d8dc4538069b8716e47ef1caf993ebc74c6f.png?v=1477492276"
+        },
+        {
+          "id": 8159,
+          "type": 4,
+          "value": "hotspur.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/8f43d8dc4538069b8716e47ef1caf993ebc74c6f.png?v=1477492276"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Tottenham Hotspur",
+      "city": "London",
+      "goal": 4,
+      "stadiumName": "White Hart Lane",
+      "stadiumCapacity": 36274,
+      "ranking": 5,
+      "stadiumLevel": 0,
+      "previousRanking": 8,
+      "budget": 1375000
+    }
+  },
+  {
+    "id": 62974707,
+    "leagueId": 4238643,
+    "value": 16173775,
+    "price": 25106058,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494178595,
+    "player": {
+      "id": 248914439,
+      "assets": [],
+      "fullName": "Carlos Henrique Casemiro",
+      "name": "Casemiro",
+      "position": 2,
+      "statAtt": 86,
+      "statDef": 91,
+      "statOvr": 88,
+      "age": 25,
+      "teamId": 18,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 100,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 16173775,
+      "yellowCards": 0,
+      "trainingProgress": 17,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 76,
+        "code": "BR",
+        "name": "Braziliaanse"
+      }
+    },
+    "destinationTeam": {
+      "id": 18,
+      "uniqueId": "4238643_18",
+      "assets": [
+        {
+          "id": 8158,
+          "type": 3,
+          "value": "hotspur.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/8f43d8dc4538069b8716e47ef1caf993ebc74c6f.png?v=1477492276"
+        },
+        {
+          "id": 8159,
+          "type": 4,
+          "value": "hotspur.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/8f43d8dc4538069b8716e47ef1caf993ebc74c6f.png?v=1477492276"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Tottenham Hotspur",
+      "city": "London",
+      "goal": 4,
+      "stadiumName": "White Hart Lane",
+      "stadiumCapacity": 36274,
+      "ranking": 5,
+      "stadiumLevel": 0,
+      "previousRanking": 8,
+      "budget": 1375000
+    },
+    "sourceTeam": {
+      "id": 51495,
+      "uniqueId": "4238643_51495",
+      "assets": [
+        {
+          "id": 8732,
+          "type": 3,
+          "value": "real-madrid.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/1995d7557bc905880aa06953a870621a9bf673f0.png?v=1477491766"
+        },
+        {
+          "id": 8733,
+          "type": 4,
+          "value": "real-madrid.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/1995d7557bc905880aa06953a870621a9bf673f0.png?v=1477491767"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Real Madrid",
+      "city": "Madrid",
+      "goal": 0,
+      "stadiumName": "Santiago Bernab�u",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    }
+  },
+  {
+    "id": 62974014,
+    "leagueId": 4238643,
+    "value": 6329844,
+    "price": 9735579,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494175898,
+    "player": {
+      "id": 249080272,
+      "assets": [],
+      "fullName": "Edin Visca",
+      "name": "Visca",
+      "position": 2,
+      "statAtt": 81,
+      "statDef": 75,
+      "statOvr": 78,
+      "age": 27,
+      "teamId": 16,
+      "leagueId": 4238643,
+      "fitness": 96,
+      "morale": 97,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 8,
+      "price": 0,
+      "value": 6329844,
+      "yellowCards": 0,
+      "trainingProgress": 28,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 6,
+      "averagePlayerGrade": 6.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 74,
+        "code": "BA",
+        "name": "Bosnische"
+      }
+    },
+    "destinationTeam": {
+      "id": 16,
+      "uniqueId": "4238643_16",
+      "assets": [
+        {
+          "id": 8154,
+          "type": 3,
+          "value": "sunderland.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/cd1a473501a5e56334429f44fdd5e8ee190a74ee.png?v=1477492262"
+        },
+        {
+          "id": 8155,
+          "type": 4,
+          "value": "sunderland.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/cd1a473501a5e56334429f44fdd5e8ee190a74ee.png?v=1477492263"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Sunderland",
+      "city": "Sunderland",
+      "goal": 11,
+      "stadiumName": "Stadium of Light",
+      "stadiumCapacity": 49000,
+      "ranking": 15,
+      "stadiumLevel": 0,
+      "previousRanking": 11,
+      "budget": 1000000
+    },
+    "sourceTeam": {
+      "id": 53014,
+      "uniqueId": "4238643_53014",
+      "assets": [
+        {
+          "id": 9882,
+          "type": 3,
+          "value": "Basaksehir.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/1784f138d6e8df4916d811b4c45bad08b395f552.png?v=1479297521"
+        },
+        {
+          "id": 9883,
+          "type": 4,
+          "value": "Basaksehir.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/1784f138d6e8df4916d811b4c45bad08b395f552.png?v=1479297521"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Medipol Basaksehir",
+      "city": "Istanbul",
+      "goal": 0,
+      "stadiumName": "Basaksehir Fatih Terim Stadium",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    }
+  },
+  {
+    "id": 62973949,
+    "leagueId": 4238643,
+    "value": 16072581,
+    "price": 20472509,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494175690,
+    "player": {
+      "id": 248550201,
+      "assets": [],
+      "fullName": "Nico Gait�n",
+      "name": "Gait�n",
+      "position": 1,
+      "statAtt": 88,
+      "statDef": 45,
+      "statOvr": 66,
+      "age": 29,
+      "teamId": 7,
+      "leagueId": 4238643,
+      "fitness": 95,
+      "morale": 100,
+      "goals": 1,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 9,
+      "price": 0,
+      "value": 16072581,
+      "yellowCards": 0,
+      "trainingProgress": 77,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 8,
+      "averagePlayerGrade": 8.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 1,
+      "nationality": {
+        "id": 1,
+        "code": "AR",
+        "name": "Argentijnse"
+      }
+    },
+    "destinationTeam": {
+      "id": 7,
+      "uniqueId": "4238643_7",
+      "assets": [
+        {
+          "id": 8160,
+          "type": 3,
+          "value": "watford.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/942c41238174eb0515dbddc26e32fd33460e290d.png?v=1477492279"
+        },
+        {
+          "id": 8161,
+          "type": 4,
+          "value": "watford.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/942c41238174eb0515dbddc26e32fd33460e290d.png?v=1477492279"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Watford",
+      "city": "Watford",
+      "goal": 11,
+      "stadiumName": "Vicarage Road",
+      "stadiumCapacity": 21977,
+      "ranking": 9,
+      "stadiumLevel": 0,
+      "previousRanking": 15,
+      "budget": 1000000
+    },
+    "sourceTeam": {
+      "id": 51482,
+      "uniqueId": "4238643_51482",
+      "assets": [
+        {
+          "id": 8708,
+          "type": 3,
+          "value": "Atl�tico-Madrid.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/5647532e215d7e3dd8f9c7a681c77849e1a28706.png?v=1477491706"
+        },
+        {
+          "id": 8709,
+          "type": 4,
+          "value": "Atl�tico-Madrid.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/5647532e215d7e3dd8f9c7a681c77849e1a28706.png?v=1477491706"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Atl�tico Madrid",
+      "city": "Madrid",
+      "goal": 0,
+      "stadiumName": "Vicente Calder�n",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    }
+  },
+  {
+    "id": 62973792,
+    "leagueId": 4238643,
+    "value": 8650100,
+    "price": 6487575,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494175267,
+    "player": {
+      "id": 248549869,
+      "assets": [],
+      "fullName": "Bartosz Kapustka",
+      "name": "Kapustka",
+      "position": 2,
+      "statAtt": 82,
+      "statDef": 78,
+      "statOvr": 80,
+      "age": 20,
+      "teamId": 2,
+      "leagueId": 4238643,
+      "fitness": 98,
+      "morale": 100,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 8650100,
+      "yellowCards": 1,
+      "trainingProgress": 88,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 6,
+      "averagePlayerGrade": 6.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 33,
+        "code": "PL",
+        "name": "Poolse"
+      }
+    },
+    "destinationTeam": {
+      "id": 2,
+      "uniqueId": "4238643_2",
+      "assets": [
+        {
+          "id": 8138,
+          "type": 3,
+          "value": "burnley.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/37561fce216b906cd09c25ca5c8d278f5cc8c565.png?v=1477492212"
+        },
+        {
+          "id": 8139,
+          "type": 4,
+          "value": "burnley.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/37561fce216b906cd09c25ca5c8d278f5cc8c565.png?v=1477492212"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Burnley",
+      "city": "Burnley",
+      "goal": 16,
+      "stadiumName": "Turf Moor",
+      "stadiumCapacity": 22546,
+      "ranking": 6,
+      "stadiumLevel": 0,
+      "previousRanking": 9,
+      "budget": 750000
+    },
+    "sourceTeam": {
+      "id": 8,
+      "uniqueId": "4238643_8",
+      "assets": [
+        {
+          "id": 8140,
+          "type": 3,
+          "value": "leicester.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/220c20ba90ea8edec098f5043c7c9e1b784d3624.png?v=1477492234"
+        },
+        {
+          "id": 8141,
+          "type": 4,
+          "value": "leicester.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/220c20ba90ea8edec098f5043c7c9e1b784d3624.png?v=1477492234"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Leicester City",
+      "city": "Leicester",
+      "goal": 7,
+      "stadiumName": "King Power Stadium",
+      "stadiumCapacity": 32500,
+      "ranking": 4,
+      "stadiumLevel": 0,
+      "previousRanking": 2,
+      "budget": 1250000
+    }
+  },
+  {
+    "id": 62972312,
+    "leagueId": 4238643,
+    "value": 13561939,
+    "price": 20375666,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494173242,
+    "player": {
+      "id": 248550133,
+      "assets": [],
+      "fullName": "Moussa Sissoko",
+      "name": "Sissoko",
+      "position": 2,
+      "statAtt": 88,
+      "statDef": 86,
+      "statOvr": 87,
+      "age": 27,
+      "teamId": 20,
+      "leagueId": 4238643,
+      "fitness": 95,
+      "morale": 83,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 10,
+      "price": 0,
+      "value": 13561939,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 6,
+      "averagePlayerGrade": 6.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 11,
+        "code": "FR",
+        "name": "Franse"
+      }
+    },
+    "destinationTeam": {
+      "id": 20,
+      "uniqueId": "4238643_20",
+      "assets": [
+        {
+          "id": 8124,
+          "type": 3,
+          "value": "westham.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/af4044eb5b61004ee5f0c92b62b4e4a256daf4b2.png?v=1477492288"
+        },
+        {
+          "id": 8125,
+          "type": 4,
+          "value": "westham.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/af4044eb5b61004ee5f0c92b62b4e4a256daf4b2.png?v=1477492288"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "West Ham United",
+      "city": "London",
+      "goal": 9,
+      "stadiumName": "Olympic Stadium",
+      "stadiumCapacity": 60010,
+      "ranking": 17,
+      "stadiumLevel": 0,
+      "previousRanking": 14,
+      "budget": 1125000
+    },
+    "sourceTeam": {
+      "id": 18,
+      "uniqueId": "4238643_18",
+      "assets": [
+        {
+          "id": 8158,
+          "type": 3,
+          "value": "hotspur.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/8f43d8dc4538069b8716e47ef1caf993ebc74c6f.png?v=1477492276"
+        },
+        {
+          "id": 8159,
+          "type": 4,
+          "value": "hotspur.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/8f43d8dc4538069b8716e47ef1caf993ebc74c6f.png?v=1477492276"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Tottenham Hotspur",
+      "city": "London",
+      "goal": 4,
+      "stadiumName": "White Hart Lane",
+      "stadiumCapacity": 36274,
+      "ranking": 5,
+      "stadiumLevel": 0,
+      "previousRanking": 8,
+      "budget": 1375000
+    }
+  },
+  {
+    "id": 62971765,
+    "leagueId": 4238643,
+    "value": 10712373,
+    "price": 17745462,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494173154,
+    "player": {
+      "id": 249018864,
+      "assets": [
+        {
+          "id": 4736,
+          "type": 0,
+          "value": "Stefan de Vrij.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Small/bcc96969321a8f2306d5df704f84483dda8d6eb1.png?v=1448635746"
+        },
+        {
+          "id": 2117,
+          "type": 1,
+          "value": "Stefan de Vrij.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Normal/bcc96969321a8f2306d5df704f84483dda8d6eb1.png?v=1448635746"
+        }
+      ],
+      "fullName": "Stefan de Vrij",
+      "name": "de Vrij",
+      "position": 3,
+      "statAtt": 18,
+      "statDef": 87,
+      "statOvr": 52,
+      "age": 25,
+      "teamId": 18,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 100,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 10712373,
+      "yellowCards": 0,
+      "trainingProgress": 16,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 17,
+        "code": "NL",
+        "name": "Nederlandse"
+      }
+    },
+    "destinationTeam": {
+      "id": 18,
+      "uniqueId": "4238643_18",
+      "assets": [
+        {
+          "id": 8158,
+          "type": 3,
+          "value": "hotspur.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/8f43d8dc4538069b8716e47ef1caf993ebc74c6f.png?v=1477492276"
+        },
+        {
+          "id": 8159,
+          "type": 4,
+          "value": "hotspur.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/8f43d8dc4538069b8716e47ef1caf993ebc74c6f.png?v=1477492276"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Tottenham Hotspur",
+      "city": "London",
+      "goal": 4,
+      "stadiumName": "White Hart Lane",
+      "stadiumCapacity": 36274,
+      "ranking": 5,
+      "stadiumLevel": 0,
+      "previousRanking": 8,
+      "budget": 1375000
+    },
+    "sourceTeam": {
+      "id": 52977,
+      "uniqueId": "4238643_52977",
+      "assets": [
+        {
+          "id": 1917,
+          "type": 4,
+          "value": "Lazio.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/10f4be2cf026e27a7cfac65e93e91491ddfc1f6d.png?v=0"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Lazio",
+      "city": "Rome",
+      "goal": 0,
+      "stadiumName": "Olimpico",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    }
+  },
+  {
+    "id": 62971052,
+    "leagueId": 4238643,
+    "value": 2185110,
+    "price": 3081005,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494173046,
+    "player": {
+      "id": 248550085,
+      "assets": [],
+      "fullName": "Lynden Gooch",
+      "name": "Gooch",
+      "position": 1,
+      "statAtt": 64,
+      "statDef": 28,
+      "statOvr": 46,
+      "age": 21,
+      "teamId": 51378,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 88,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 2185110,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 4,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 27,
+        "code": "US",
+        "name": "Amerikaanse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51378,
+      "uniqueId": "4238643_51378",
+      "assets": [
+        {
+          "id": 257,
+          "type": 3,
+          "value": "1013.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/fa66d2329ab434dea98d4700701bbea6b2d669c6.png?v=0"
+        },
+        {
+          "id": 184,
+          "type": 4,
+          "value": "1013.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/fa66d2329ab434dea98d4700701bbea6b2d669c6.png?v=0"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Feyenoord",
+      "city": "Rotterdam",
+      "goal": 0,
+      "stadiumName": "De Kuip",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 16,
+      "uniqueId": "4238643_16",
+      "assets": [
+        {
+          "id": 8154,
+          "type": 3,
+          "value": "sunderland.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/cd1a473501a5e56334429f44fdd5e8ee190a74ee.png?v=1477492262"
+        },
+        {
+          "id": 8155,
+          "type": 4,
+          "value": "sunderland.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/cd1a473501a5e56334429f44fdd5e8ee190a74ee.png?v=1477492263"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Sunderland",
+      "city": "Sunderland",
+      "goal": 11,
+      "stadiumName": "Stadium of Light",
+      "stadiumCapacity": 49000,
+      "ranking": 15,
+      "stadiumLevel": 0,
+      "previousRanking": 11,
+      "budget": 1000000
+    }
+  },
+  {
+    "id": 62971050,
+    "leagueId": 4238643,
+    "value": 8918285,
+    "price": 13587459,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494173045,
+    "player": {
+      "id": 248549947,
+      "assets": [],
+      "fullName": "Ashley Young",
+      "name": "Young",
+      "position": 2,
+      "statAtt": 85,
+      "statDef": 79,
+      "statOvr": 82,
+      "age": 31,
+      "teamId": 51082,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 83,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 8918285,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 8,
+        "code": "GB",
+        "name": "Engelse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51082,
+      "uniqueId": "4238643_51082",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Spartak Moscow",
+      "city": "Moscow",
+      "goal": 0,
+      "stadiumName": "Otkrytie Arena",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 11,
+      "uniqueId": "4238643_11",
+      "assets": [
+        {
+          "id": 8146,
+          "type": 3,
+          "value": "manu.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/fafdc585a699afe16169a8bd88f6fe3e1652ff13.png?v=1477492246"
+        },
+        {
+          "id": 8147,
+          "type": 4,
+          "value": "manu.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/fafdc585a699afe16169a8bd88f6fe3e1652ff13.png?v=1477492246"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Manchester United",
+      "city": "Manchester",
+      "goal": 4,
+      "stadiumName": "Old Trafford",
+      "stadiumCapacity": 76100,
+      "ranking": 10,
+      "stadiumLevel": 0,
+      "previousRanking": 16,
+      "budget": 1350000
+    }
+  },
+  {
+    "id": 62971047,
+    "leagueId": 4238643,
+    "value": 7362791,
+    "price": 18406976,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494173045,
+    "player": {
+      "id": 248550181,
+      "assets": [],
+      "fullName": "Jonathan Calleri",
+      "name": "Calleri",
+      "position": 1,
+      "statAtt": 78,
+      "statDef": 11,
+      "statOvr": 44,
+      "age": 23,
+      "teamId": 51081,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 82,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 7362791,
+      "yellowCards": 0,
+      "trainingProgress": 79,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 1,
+        "code": "AR",
+        "name": "Argentijnse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51081,
+      "uniqueId": "4238643_51081",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Rubin Kazan",
+      "city": "Kazan",
+      "goal": 0,
+      "stadiumName": "Kazan Arena",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 20,
+      "uniqueId": "4238643_20",
+      "assets": [
+        {
+          "id": 8124,
+          "type": 3,
+          "value": "westham.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/af4044eb5b61004ee5f0c92b62b4e4a256daf4b2.png?v=1477492288"
+        },
+        {
+          "id": 8125,
+          "type": 4,
+          "value": "westham.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/af4044eb5b61004ee5f0c92b62b4e4a256daf4b2.png?v=1477492288"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "West Ham United",
+      "city": "London",
+      "goal": 9,
+      "stadiumName": "Olympic Stadium",
+      "stadiumCapacity": 60010,
+      "ranking": 17,
+      "stadiumLevel": 0,
+      "previousRanking": 14,
+      "budget": 1125000
+    }
+  },
+  {
+    "id": 62971046,
+    "leagueId": 4238643,
+    "value": 3415098,
+    "price": 3995665,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494173045,
+    "player": {
+      "id": 248549995,
+      "assets": [],
+      "fullName": "Shaun Maloney",
+      "name": "Maloney",
+      "position": 2,
+      "statAtt": 75,
+      "statDef": 71,
+      "statOvr": 73,
+      "age": 34,
+      "teamId": 51440,
+      "leagueId": 4238643,
+      "fitness": 99,
+      "morale": 87,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 3415098,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 6,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 23,
+        "code": "SCL",
+        "name": "Schotse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51440,
+      "uniqueId": "4238643_51440",
+      "assets": [
+        {
+          "id": 9116,
+          "type": 3,
+          "value": "FC Metz.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/05726f5a946581a5e2004afe955537c7637ff368.png?v=1477672052"
+        },
+        {
+          "id": 9117,
+          "type": 4,
+          "value": "FC Metz.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/05726f5a946581a5e2004afe955537c7637ff368.png?v=1477672052"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Metz",
+      "city": "Metz",
+      "goal": 0,
+      "stadiumName": "Stade Saint-Symphorien",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 13,
+      "uniqueId": "4238643_13",
+      "assets": [
+        {
+          "id": 8136,
+          "type": 3,
+          "value": "hullcity.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/a8202d1f77204f35d030685e449ac93362c26552.png?v=1477492229"
+        },
+        {
+          "id": 8137,
+          "type": 4,
+          "value": "hullcity.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/a8202d1f77204f35d030685e449ac93362c26552.png?v=1477492229"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Hull City",
+      "city": "Kingston upon Hull",
+      "goal": 11,
+      "stadiumName": "KCOM Stadium",
+      "stadiumCapacity": 25404,
+      "ranking": 19,
+      "stadiumLevel": 0,
+      "previousRanking": 19,
+      "budget": 1000000
+    }
+  },
+  {
+    "id": 62971044,
+    "leagueId": 4238643,
+    "value": 4479231,
+    "price": 6808431,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494173045,
+    "player": {
+      "id": 248550089,
+      "assets": [],
+      "fullName": "Duncan Watmore",
+      "name": "Watmore",
+      "position": 1,
+      "statAtt": 72,
+      "statDef": 35,
+      "statOvr": 53,
+      "age": 23,
+      "teamId": 52637,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 82,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 4479231,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 8,
+        "code": "GB",
+        "name": "Engelse"
+      }
+    },
+    "destinationTeam": {
+      "id": 52637,
+      "uniqueId": "4238643_52637",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Wigan Athletic",
+      "city": "Wigan",
+      "goal": 0,
+      "stadiumName": "DW Stadium",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 16,
+      "uniqueId": "4238643_16",
+      "assets": [
+        {
+          "id": 8154,
+          "type": 3,
+          "value": "sunderland.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/cd1a473501a5e56334429f44fdd5e8ee190a74ee.png?v=1477492262"
+        },
+        {
+          "id": 8155,
+          "type": 4,
+          "value": "sunderland.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/cd1a473501a5e56334429f44fdd5e8ee190a74ee.png?v=1477492263"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Sunderland",
+      "city": "Sunderland",
+      "goal": 11,
+      "stadiumName": "Stadium of Light",
+      "stadiumCapacity": 49000,
+      "ranking": 15,
+      "stadiumLevel": 0,
+      "previousRanking": 11,
+      "budget": 1000000
+    }
+  },
+  {
+    "id": 62971043,
+    "leagueId": 4238643,
+    "value": 2861523,
+    "price": 7153808,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494173045,
+    "player": {
+      "id": 248549711,
+      "assets": [],
+      "fullName": "Matthew Lowton",
+      "name": "Lowton",
+      "position": 3,
+      "statAtt": 38,
+      "statDef": 70,
+      "statOvr": 54,
+      "age": 27,
+      "teamId": 52146,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 86,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 2861523,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 8,
+        "code": "GB",
+        "name": "Engelse"
+      }
+    },
+    "destinationTeam": {
+      "id": 52146,
+      "uniqueId": "4238643_52146",
+      "assets": [
+        {
+          "id": 827,
+          "type": 3,
+          "value": "Vit�ria Guimar�es-S.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/9611bd6a1fc43bca0359352bf27371aa81686491.png?v=1448583874"
+        },
+        {
+          "id": 826,
+          "type": 4,
+          "value": "Vit�ria Guimar�es.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/9611bd6a1fc43bca0359352bf27371aa81686491.png?v=1448583874"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Vit�ria de Guimar�es",
+      "city": "Guimar�es",
+      "goal": 0,
+      "stadiumName": "Est�dio D. Afonso Henriques",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 2,
+      "uniqueId": "4238643_2",
+      "assets": [
+        {
+          "id": 8138,
+          "type": 3,
+          "value": "burnley.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/37561fce216b906cd09c25ca5c8d278f5cc8c565.png?v=1477492212"
+        },
+        {
+          "id": 8139,
+          "type": 4,
+          "value": "burnley.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/37561fce216b906cd09c25ca5c8d278f5cc8c565.png?v=1477492212"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Burnley",
+      "city": "Burnley",
+      "goal": 16,
+      "stadiumName": "Turf Moor",
+      "stadiumCapacity": 22546,
+      "ranking": 6,
+      "stadiumLevel": 0,
+      "previousRanking": 9,
+      "budget": 750000
+    }
+  },
+  {
+    "id": 62971041,
+    "leagueId": 4238643,
+    "value": 2510186,
+    "price": 3537906,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494173045,
+    "player": {
+      "id": 248549762,
+      "assets": [
+        {
+          "id": 5638,
+          "type": 0,
+          "value": "Todd Kane.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Small/094ac8c8a04e033c1ece84553d4dc55dc9fbbed1.png?v=1448901614"
+        },
+        {
+          "id": 1493,
+          "type": 1,
+          "value": "Todd Kane.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Normal/094ac8c8a04e033c1ece84553d4dc55dc9fbbed1.png?v=1448901614"
+        }
+      ],
+      "fullName": "Todd Kane",
+      "name": "Kane T.",
+      "position": 3,
+      "statAtt": 35,
+      "statDef": 68,
+      "statOvr": 51,
+      "age": 23,
+      "teamId": 52137,
+      "leagueId": 4238643,
+      "fitness": 99,
+      "morale": 100,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 2510186,
+      "yellowCards": 0,
+      "trainingProgress": 78,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 7,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 8,
+        "code": "GB",
+        "name": "Engelse"
+      }
+    },
+    "destinationTeam": {
+      "id": 52137,
+      "uniqueId": "4238643_52137",
+      "assets": [
+        {
+          "id": 809,
+          "type": 3,
+          "value": "Maritimo-s.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/6f91289be617f26bc45c92c4e43d7638a6128022.png?v=1448583811"
+        },
+        {
+          "id": 808,
+          "type": 4,
+          "value": "Maritimo.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/6f91289be617f26bc45c92c4e43d7638a6128022.png?v=1448583811"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Mar�timo",
+      "city": "Funchal",
+      "goal": 0,
+      "stadiumName": "Est�dio dos Barreiros",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 4,
+      "uniqueId": "4238643_4",
+      "assets": [
+        {
+          "id": 8130,
+          "type": 3,
+          "value": "chelsea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/fe9e9be6befeb27533738e9f86d307e10aa355da.png?v=1477492215"
+        },
+        {
+          "id": 8131,
+          "type": 4,
+          "value": "chelsea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/fe9e9be6befeb27533738e9f86d307e10aa355da.png?v=1477492215"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Chelsea",
+      "city": "London",
+      "goal": 1,
+      "stadiumName": "Stamford Bridge",
+      "stadiumCapacity": 41623,
+      "ranking": 2,
+      "stadiumLevel": 0,
+      "previousRanking": 6,
+      "budget": 1500000
+    }
+  },
+  {
+    "id": 62971039,
+    "leagueId": 4238643,
+    "value": 6048324,
+    "price": 10595523,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494173045,
+    "player": {
+      "id": 248549854,
+      "assets": [
+        {
+          "id": 5945,
+          "type": 0,
+          "value": "Mauro Z�rate.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Small/a3cea5ded74bad734011d662927298af47e5280e.png?v=1462842779"
+        },
+        {
+          "id": 5946,
+          "type": 1,
+          "value": "Mauro Z�rate.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Normal/a3cea5ded74bad734011d662927298af47e5280e.png?v=1462842779"
+        }
+      ],
+      "fullName": "Mauro Z�rate",
+      "name": "Z�rate",
+      "position": 1,
+      "statAtt": 76,
+      "statDef": 40,
+      "statOvr": 58,
+      "age": 30,
+      "teamId": 51074,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 85,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 6048324,
+      "yellowCards": 0,
+      "trainingProgress": 7,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 1,
+        "code": "AR",
+        "name": "Argentijnse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51074,
+      "uniqueId": "4238643_51074",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "CSKA Moscow",
+      "city": "Moscow",
+      "goal": 0,
+      "stadiumName": "Arena Khimki",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 7,
+      "uniqueId": "4238643_7",
+      "assets": [
+        {
+          "id": 8160,
+          "type": 3,
+          "value": "watford.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/942c41238174eb0515dbddc26e32fd33460e290d.png?v=1477492279"
+        },
+        {
+          "id": 8161,
+          "type": 4,
+          "value": "watford.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/942c41238174eb0515dbddc26e32fd33460e290d.png?v=1477492279"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Watford",
+      "city": "Watford",
+      "goal": 11,
+      "stadiumName": "Vicarage Road",
+      "stadiumCapacity": 21977,
+      "ranking": 9,
+      "stadiumLevel": 0,
+      "previousRanking": 15,
+      "budget": 1000000
+    }
+  },
+  {
+    "id": 62970037,
+    "leagueId": 4238643,
+    "value": 22708984,
+    "price": 29430945,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494172645,
+    "player": {
+      "id": 248550199,
+      "assets": [],
+      "fullName": "Julian Draxler",
+      "name": "Draxler",
+      "position": 1,
+      "statAtt": 92,
+      "statDef": 44,
+      "statOvr": 68,
+      "age": 23,
+      "teamId": 14,
+      "leagueId": 4238643,
+      "fitness": 97,
+      "morale": 96,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 22708984,
+      "yellowCards": 0,
+      "trainingProgress": 32,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 6,
+      "averagePlayerGrade": 6.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 12,
+        "code": "DE",
+        "name": "Duitse"
+      }
+    },
+    "destinationTeam": {
+      "id": 14,
+      "uniqueId": "4238643_14",
+      "assets": [
+        {
+          "id": 8150,
+          "type": 3,
+          "value": "southampton.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/8ac799c67f7b72d80defb84b32049d6f77b1e70c.png?v=1477492254"
+        },
+        {
+          "id": 8151,
+          "type": 4,
+          "value": "southampton.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/8ac799c67f7b72d80defb84b32049d6f77b1e70c.png?v=1477492254"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Southampton",
+      "city": "Southampton",
+      "goal": 7,
+      "stadiumName": "St Mary's Stadium",
+      "stadiumCapacity": 32689,
+      "ranking": 11,
+      "stadiumLevel": 0,
+      "previousRanking": 4,
+      "budget": 1250000
+    },
+    "sourceTeam": {
+      "id": 51445,
+      "uniqueId": "4238643_51445",
+      "assets": [
+        {
+          "id": 9126,
+          "type": 3,
+          "value": "Paris-Saint-Germain.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/5554fc00d069294e20725f5ccb4236141b64e10e.png?v=1477672091"
+        },
+        {
+          "id": 9127,
+          "type": 4,
+          "value": "Paris-Saint-Germain.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/5554fc00d069294e20725f5ccb4236141b64e10e.png?v=1477672091"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Paris Saint-Germain",
+      "city": "Paris",
+      "goal": 0,
+      "stadiumName": "Parc des Princes",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    }
+  },
+  {
+    "id": 62969637,
+    "leagueId": 4238643,
+    "value": 5605152,
+    "price": 5605152,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494171267,
+    "player": {
+      "id": 248549757,
+      "assets": [],
+      "fullName": "Nathan Ak�",
+      "name": "Ak�",
+      "position": 3,
+      "statAtt": 35,
+      "statDef": 78,
+      "statOvr": 56,
+      "age": 22,
+      "teamId": 2,
+      "leagueId": 4238643,
+      "fitness": 98,
+      "morale": 100,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 2,
+      "price": 0,
+      "value": 5605152,
+      "yellowCards": 0,
+      "trainingProgress": 74,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 7,
+      "averagePlayerGrade": 7.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 17,
+        "code": "NL",
+        "name": "Nederlandse"
+      }
+    },
+    "destinationTeam": {
+      "id": 2,
+      "uniqueId": "4238643_2",
+      "assets": [
+        {
+          "id": 8138,
+          "type": 3,
+          "value": "burnley.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/37561fce216b906cd09c25ca5c8d278f5cc8c565.png?v=1477492212"
+        },
+        {
+          "id": 8139,
+          "type": 4,
+          "value": "burnley.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/37561fce216b906cd09c25ca5c8d278f5cc8c565.png?v=1477492212"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Burnley",
+      "city": "Burnley",
+      "goal": 16,
+      "stadiumName": "Turf Moor",
+      "stadiumCapacity": 22546,
+      "ranking": 6,
+      "stadiumLevel": 0,
+      "previousRanking": 9,
+      "budget": 750000
+    },
+    "sourceTeam": {
+      "id": 4,
+      "uniqueId": "4238643_4",
+      "assets": [
+        {
+          "id": 8130,
+          "type": 3,
+          "value": "chelsea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/fe9e9be6befeb27533738e9f86d307e10aa355da.png?v=1477492215"
+        },
+        {
+          "id": 8131,
+          "type": 4,
+          "value": "chelsea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/fe9e9be6befeb27533738e9f86d307e10aa355da.png?v=1477492215"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Chelsea",
+      "city": "London",
+      "goal": 1,
+      "stadiumName": "Stamford Bridge",
+      "stadiumCapacity": 41623,
+      "ranking": 2,
+      "stadiumLevel": 0,
+      "previousRanking": 6,
+      "budget": 1500000
+    }
+  },
+  {
+    "id": 62969555,
+    "leagueId": 4238643,
+    "value": 4881174,
+    "price": 6051675,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494170816,
+    "player": {
+      "id": 248578636,
+      "assets": [
+        {
+          "id": 5563,
+          "type": 0,
+          "value": "Nemanja Gudelj.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Small/c735907facc7d9bba55c425e56005390c2cc7feb.png?v=1478310325"
+        },
+        {
+          "id": 912,
+          "type": 1,
+          "value": "Nemanja Gudelj.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Normal/c735907facc7d9bba55c425e56005390c2cc7feb.png?v=1478310325"
+        }
+      ],
+      "fullName": "Nemanja Gudelj",
+      "name": "Gudelj",
+      "position": 2,
+      "statAtt": 75,
+      "statDef": 75,
+      "statOvr": 75,
+      "age": 25,
+      "teamId": 16,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 95,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 4881174,
+      "yellowCards": 0,
+      "trainingProgress": 76,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 208,
+        "code": "RS",
+        "name": "Servische"
+      }
+    },
+    "destinationTeam": {
+      "id": 16,
+      "uniqueId": "4238643_16",
+      "assets": [
+        {
+          "id": 8154,
+          "type": 3,
+          "value": "sunderland.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/cd1a473501a5e56334429f44fdd5e8ee190a74ee.png?v=1477492262"
+        },
+        {
+          "id": 8155,
+          "type": 4,
+          "value": "sunderland.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/cd1a473501a5e56334429f44fdd5e8ee190a74ee.png?v=1477492263"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Sunderland",
+      "city": "Sunderland",
+      "goal": 11,
+      "stadiumName": "Stadium of Light",
+      "stadiumCapacity": 49000,
+      "ranking": 15,
+      "stadiumLevel": 0,
+      "previousRanking": 11,
+      "budget": 1000000
+    },
+    "sourceTeam": {
+      "id": 52767,
+      "uniqueId": "4238643_52767",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Tianjin Teda",
+      "city": "Tianjin",
+      "goal": 0,
+      "stadiumName": "Tianjin Olympic Center Stadium",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    }
+  },
+  {
+    "id": 62969420,
+    "leagueId": 4238643,
+    "value": 14591522,
+    "price": 21887250,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494170133,
+    "player": {
+      "id": 249075771,
+      "assets": [
+        {
+          "id": 4191,
+          "type": 0,
+          "value": "Gelson Dany Batalha Martins.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Small/fc631a25041f5eeddfb2198fa3a8961a01eb3acc.png?v=1448583291"
+        },
+        {
+          "id": 4192,
+          "type": 1,
+          "value": "Gelson Dany Batalha Martins.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Normal/fc631a25041f5eeddfb2198fa3a8961a01eb3acc.png?v=1448583292"
+        }
+      ],
+      "fullName": "Gelson Dany Batalha Martins",
+      "name": "Gelson Martins",
+      "position": 1,
+      "statAtt": 85,
+      "statDef": 39,
+      "statOvr": 62,
+      "age": 21,
+      "teamId": 12,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 93,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 15,
+      "price": 0,
+      "value": 14591522,
+      "yellowCards": 0,
+      "trainingProgress": 10,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 19,
+        "code": "PT",
+        "name": "Portugese"
+      }
+    },
+    "destinationTeam": {
+      "id": 12,
+      "uniqueId": "4238643_12",
+      "assets": [
+        {
+          "id": 8148,
+          "type": 3,
+          "value": "middlesbrough.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/b41b9f1f83434d3e5aa049d748ef65c7978af48c.png?v=1477492250"
+        },
+        {
+          "id": 8149,
+          "type": 4,
+          "value": "middlesbrough.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/b41b9f1f83434d3e5aa049d748ef65c7978af48c.png?v=1477492250"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Middlesbrough",
+      "city": "Middlesbrough",
+      "goal": 13,
+      "stadiumName": "Riverside Stadium",
+      "stadiumCapacity": 35100,
+      "ranking": 20,
+      "stadiumLevel": 0,
+      "previousRanking": 20,
+      "budget": 875000
+    },
+    "sourceTeam": {
+      "id": 52144,
+      "uniqueId": "4238643_52144",
+      "assets": [
+        {
+          "id": 823,
+          "type": 3,
+          "value": "Sporting CP-S.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/c12fac49d77e838eb1c81a2fa1621f8177152c8f.png?v=1448583864"
+        },
+        {
+          "id": 822,
+          "type": 4,
+          "value": "Sporting CP.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/c12fac49d77e838eb1c81a2fa1621f8177152c8f.png?v=1448583864"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Sporting CP",
+      "city": "Lisbon",
+      "goal": 0,
+      "stadiumName": "Est�dio Jos� Alvalade",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    }
+  },
+  {
+    "id": 62966446,
+    "leagueId": 4238643,
+    "value": 2260272,
+    "price": 5096528,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494165835,
+    "player": {
+      "id": 248549957,
+      "assets": [],
+      "fullName": "Daniel Ayala",
+      "name": "Ayala",
+      "position": 3,
+      "statAtt": 17,
+      "statDef": 70,
+      "statOvr": 43,
+      "age": 26,
+      "teamId": 51506,
+      "leagueId": 4238643,
+      "fitness": 96,
+      "morale": 91,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 2260272,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 4,
+      "averagePlayerGrade": 4.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 25,
+        "code": "ES",
+        "name": "Spaanse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51506,
+      "uniqueId": "4238643_51506",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Lech Poznan",
+      "city": "Poznan",
+      "goal": 0,
+      "stadiumName": "INEA Stadion",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 12,
+      "uniqueId": "4238643_12",
+      "assets": [
+        {
+          "id": 8148,
+          "type": 3,
+          "value": "middlesbrough.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/b41b9f1f83434d3e5aa049d748ef65c7978af48c.png?v=1477492250"
+        },
+        {
+          "id": 8149,
+          "type": 4,
+          "value": "middlesbrough.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/b41b9f1f83434d3e5aa049d748ef65c7978af48c.png?v=1477492250"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Middlesbrough",
+      "city": "Middlesbrough",
+      "goal": 13,
+      "stadiumName": "Riverside Stadium",
+      "stadiumCapacity": 35100,
+      "ranking": 20,
+      "stadiumLevel": 0,
+      "previousRanking": 20,
+      "budget": 875000
+    }
+  },
+  {
+    "id": 62966443,
+    "leagueId": 4238643,
+    "value": 1308720,
+    "price": 1662074,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494165835,
+    "player": {
+      "id": 248549984,
+      "assets": [],
+      "fullName": "Brian Lenihan",
+      "name": "Lenihan",
+      "position": 3,
+      "statAtt": 22,
+      "statDef": 55,
+      "statOvr": 38,
+      "age": 22,
+      "teamId": 52591,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 82,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 1308720,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 125,
+        "code": "IE",
+        "name": "Ierse"
+      }
+    },
+    "destinationTeam": {
+      "id": 52591,
+      "uniqueId": "4238643_52591",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "FC Seoul",
+      "city": "Seoul",
+      "goal": 0,
+      "stadiumName": "Seoul World Cup Stadium",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 13,
+      "uniqueId": "4238643_13",
+      "assets": [
+        {
+          "id": 8136,
+          "type": 3,
+          "value": "hullcity.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/a8202d1f77204f35d030685e449ac93362c26552.png?v=1477492229"
+        },
+        {
+          "id": 8137,
+          "type": 4,
+          "value": "hullcity.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/a8202d1f77204f35d030685e449ac93362c26552.png?v=1477492229"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Hull City",
+      "city": "Kingston upon Hull",
+      "goal": 11,
+      "stadiumName": "KCOM Stadium",
+      "stadiumCapacity": 25404,
+      "ranking": 19,
+      "stadiumLevel": 0,
+      "previousRanking": 19,
+      "budget": 1000000
+    }
+  },
+  {
+    "id": 62966440,
+    "leagueId": 4238643,
+    "value": 911400,
+    "price": 2278500,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494165835,
+    "player": {
+      "id": 248549710,
+      "assets": [],
+      "fullName": "Kevin Long",
+      "name": "Long K.",
+      "position": 3,
+      "statAtt": 8,
+      "statDef": 58,
+      "statOvr": 33,
+      "age": 26,
+      "teamId": 51866,
+      "leagueId": 4238643,
+      "fitness": 96,
+      "morale": 91,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 911400,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 6,
+      "averagePlayerGrade": 6.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 125,
+        "code": "IE",
+        "name": "Ierse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51866,
+      "uniqueId": "4238643_51866",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Aberdeen",
+      "city": "Aberdeen",
+      "goal": 0,
+      "stadiumName": "Pittodrie Stadium",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 2,
+      "uniqueId": "4238643_2",
+      "assets": [
+        {
+          "id": 8138,
+          "type": 3,
+          "value": "burnley.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/37561fce216b906cd09c25ca5c8d278f5cc8c565.png?v=1477492212"
+        },
+        {
+          "id": 8139,
+          "type": 4,
+          "value": "burnley.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/37561fce216b906cd09c25ca5c8d278f5cc8c565.png?v=1477492212"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Burnley",
+      "city": "Burnley",
+      "goal": 16,
+      "stadiumName": "Turf Moor",
+      "stadiumCapacity": 22546,
+      "ranking": 6,
+      "stadiumLevel": 0,
+      "previousRanking": 9,
+      "budget": 750000
+    }
+  },
+  {
+    "id": 62966438,
+    "leagueId": 4238643,
+    "value": 3013028,
+    "price": 7532567,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494165835,
+    "player": {
+      "id": 248549970,
+      "assets": [],
+      "fullName": "Adl�ne Gu�dioura",
+      "name": "Gu�dioura",
+      "position": 2,
+      "statAtt": 72,
+      "statDef": 70,
+      "statOvr": 71,
+      "age": 31,
+      "teamId": 52146,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 86,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 3013028,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 52,
+        "code": "DZ",
+        "name": "Algerijnse"
+      }
+    },
+    "destinationTeam": {
+      "id": 52146,
+      "uniqueId": "4238643_52146",
+      "assets": [
+        {
+          "id": 827,
+          "type": 3,
+          "value": "Vit�ria Guimar�es-S.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/9611bd6a1fc43bca0359352bf27371aa81686491.png?v=1448583874"
+        },
+        {
+          "id": 826,
+          "type": 4,
+          "value": "Vit�ria Guimar�es.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/9611bd6a1fc43bca0359352bf27371aa81686491.png?v=1448583874"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Vit�ria de Guimar�es",
+      "city": "Guimar�es",
+      "goal": 0,
+      "stadiumName": "Est�dio D. Afonso Henriques",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 12,
+      "uniqueId": "4238643_12",
+      "assets": [
+        {
+          "id": 8148,
+          "type": 3,
+          "value": "middlesbrough.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/b41b9f1f83434d3e5aa049d748ef65c7978af48c.png?v=1477492250"
+        },
+        {
+          "id": 8149,
+          "type": 4,
+          "value": "middlesbrough.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/b41b9f1f83434d3e5aa049d748ef65c7978af48c.png?v=1477492250"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Middlesbrough",
+      "city": "Middlesbrough",
+      "goal": 13,
+      "stadiumName": "Riverside Stadium",
+      "stadiumCapacity": 35100,
+      "ranking": 20,
+      "stadiumLevel": 0,
+      "previousRanking": 20,
+      "budget": 875000
+    }
+  },
+  {
+    "id": 62966435,
+    "leagueId": 4238643,
+    "value": 2840826,
+    "price": 7102065,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494165835,
+    "player": {
+      "id": 248549739,
+      "assets": [],
+      "fullName": "Harry Arter",
+      "name": "Arter",
+      "position": 2,
+      "statAtt": 71,
+      "statDef": 69,
+      "statOvr": 70,
+      "age": 27,
+      "teamId": 51490,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 85,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 2840826,
+      "yellowCards": 0,
+      "trainingProgress": 90,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 125,
+        "code": "IE",
+        "name": "Ierse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51490,
+      "uniqueId": "4238643_51490",
+      "assets": [
+        {
+          "id": 8704,
+          "type": 3,
+          "value": "Deportivo-Alav�s-.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/888d761d87c9627bccf7effb88af67903890788b.png?v=1477490662"
+        },
+        {
+          "id": 8705,
+          "type": 4,
+          "value": "Deportivo-Alav�s-.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/888d761d87c9627bccf7effb88af67903890788b.png?v=1477490662"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Alav�s",
+      "city": "Vitoria-Gasteiz",
+      "goal": 0,
+      "stadiumName": "Mendizorroza",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 3,
+      "uniqueId": "4238643_3",
+      "assets": [
+        {
+          "id": 8128,
+          "type": 3,
+          "value": "bournemouth.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/626a83b15ba43a39ac9b56223d5746a77343f8ff.png?v=1477492208"
+        },
+        {
+          "id": 8129,
+          "type": 4,
+          "value": "bournemouth.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/626a83b15ba43a39ac9b56223d5746a77343f8ff.png?v=1477492208"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Bournemouth",
+      "city": "Bournemouth",
+      "goal": 13,
+      "stadiumName": "Vitality Stadium",
+      "stadiumCapacity": 11464,
+      "ranking": 18,
+      "stadiumLevel": 0,
+      "previousRanking": 7,
+      "budget": 875000
+    }
+  },
+  {
+    "id": 62966432,
+    "leagueId": 4238643,
+    "value": 10823786,
+    "price": 20013544,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494165835,
+    "player": {
+      "id": 248549774,
+      "assets": [],
+      "fullName": "Victor Moses",
+      "name": "Moses",
+      "position": 1,
+      "statAtt": 82,
+      "statDef": 42,
+      "statOvr": 62,
+      "age": 26,
+      "teamId": 52144,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 90,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 10823786,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 180,
+        "code": "NG",
+        "name": "Nigeriaanse"
+      }
+    },
+    "destinationTeam": {
+      "id": 52144,
+      "uniqueId": "4238643_52144",
+      "assets": [
+        {
+          "id": 823,
+          "type": 3,
+          "value": "Sporting CP-S.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/c12fac49d77e838eb1c81a2fa1621f8177152c8f.png?v=1448583864"
+        },
+        {
+          "id": 822,
+          "type": 4,
+          "value": "Sporting CP.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/c12fac49d77e838eb1c81a2fa1621f8177152c8f.png?v=1448583864"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Sporting CP",
+      "city": "Lisbon",
+      "goal": 0,
+      "stadiumName": "Est�dio Jos� Alvalade",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 4,
+      "uniqueId": "4238643_4",
+      "assets": [
+        {
+          "id": 8130,
+          "type": 3,
+          "value": "chelsea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/fe9e9be6befeb27533738e9f86d307e10aa355da.png?v=1477492215"
+        },
+        {
+          "id": 8131,
+          "type": 4,
+          "value": "chelsea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/fe9e9be6befeb27533738e9f86d307e10aa355da.png?v=1477492215"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Chelsea",
+      "city": "London",
+      "goal": 1,
+      "stadiumName": "Stamford Bridge",
+      "stadiumCapacity": 41623,
+      "ranking": 2,
+      "stadiumLevel": 0,
+      "previousRanking": 6,
+      "budget": 1500000
+    }
+  },
+  {
+    "id": 62966431,
+    "leagueId": 4238643,
+    "value": 1225728,
+    "price": 1446359,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494165834,
+    "player": {
+      "id": 248550004,
+      "assets": [],
+      "fullName": "Greg Luer",
+      "name": "Luer",
+      "position": 1,
+      "statAtt": 58,
+      "statDef": 12,
+      "statOvr": 35,
+      "age": 22,
+      "teamId": 51872,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 83,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 1225728,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 8,
+        "code": "GB",
+        "name": "Engelse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51872,
+      "uniqueId": "4238643_51872",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Kilmarnock",
+      "city": "Kilmarnock",
+      "goal": 0,
+      "stadiumName": "Rugby Park",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 13,
+      "uniqueId": "4238643_13",
+      "assets": [
+        {
+          "id": 8136,
+          "type": 3,
+          "value": "hullcity.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/a8202d1f77204f35d030685e449ac93362c26552.png?v=1477492229"
+        },
+        {
+          "id": 8137,
+          "type": 4,
+          "value": "hullcity.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/a8202d1f77204f35d030685e449ac93362c26552.png?v=1477492229"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Hull City",
+      "city": "Kingston upon Hull",
+      "goal": 11,
+      "stadiumName": "KCOM Stadium",
+      "stadiumCapacity": 25404,
+      "ranking": 19,
+      "stadiumLevel": 0,
+      "previousRanking": 19,
+      "budget": 1000000
+    }
+  },
+  {
+    "id": 62965551,
+    "leagueId": 4238643,
+    "value": 10579974,
+    "price": 13707850,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494165613,
+    "player": {
+      "id": 248562640,
+      "assets": [],
+      "fullName": "Xavier Hern�ndez Creus",
+      "name": "Xavi",
+      "position": 2,
+      "statAtt": 86,
+      "statDef": 88,
+      "statOvr": 87,
+      "age": 37,
+      "teamId": 2,
+      "leagueId": 4238643,
+      "fitness": 96,
+      "morale": 100,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 8,
+      "price": 0,
+      "value": 10579974,
+      "yellowCards": 0,
+      "trainingProgress": 49,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 1,
+      "lastPlayerGrade": 8,
+      "averagePlayerGrade": 8.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 25,
+        "code": "ES",
+        "name": "Spaanse"
+      }
+    },
+    "destinationTeam": {
+      "id": 2,
+      "uniqueId": "4238643_2",
+      "assets": [
+        {
+          "id": 8138,
+          "type": 3,
+          "value": "burnley.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/37561fce216b906cd09c25ca5c8d278f5cc8c565.png?v=1477492212"
+        },
+        {
+          "id": 8139,
+          "type": 4,
+          "value": "burnley.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/37561fce216b906cd09c25ca5c8d278f5cc8c565.png?v=1477492212"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Burnley",
+      "city": "Burnley",
+      "goal": 16,
+      "stadiumName": "Turf Moor",
+      "stadiumCapacity": 22546,
+      "ranking": 6,
+      "stadiumLevel": 0,
+      "previousRanking": 9,
+      "budget": 750000
+    },
+    "sourceTeam": {
+      "id": 51041,
+      "uniqueId": "4238643_51041",
+      "assets": [
+        {
+          "id": 1371,
+          "type": 4,
+          "value": "Al-Sadd_SC_svg_2.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/aaac37286227d1bdf323d896956eb795917af378.png?v=0"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Al-Sadd",
+      "city": "Doha",
+      "goal": 0,
+      "stadiumName": "Jassim Bin Hamad Stadium",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    }
+  },
+  {
+    "id": 62961863,
+    "leagueId": 4238643,
+    "value": 1628709,
+    "price": 4071770,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494158654,
+    "player": {
+      "id": 248550162,
+      "assets": [],
+      "fullName": "Darren Randolph",
+      "name": "Randolph",
+      "position": 4,
+      "statAtt": 0,
+      "statDef": 70,
+      "statOvr": 35,
+      "age": 29,
+      "teamId": 52620,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 88,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 1628709,
+      "yellowCards": 0,
+      "trainingProgress": 45,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 125,
+        "code": "IE",
+        "name": "Ierse"
+      }
+    },
+    "destinationTeam": {
+      "id": 52620,
+      "uniqueId": "4238643_52620",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Barnsley",
+      "city": "Barnsley",
+      "goal": 0,
+      "stadiumName": "Oakwell",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 20,
+      "uniqueId": "4238643_20",
+      "assets": [
+        {
+          "id": 8124,
+          "type": 3,
+          "value": "westham.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/af4044eb5b61004ee5f0c92b62b4e4a256daf4b2.png?v=1477492288"
+        },
+        {
+          "id": 8125,
+          "type": 4,
+          "value": "westham.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/af4044eb5b61004ee5f0c92b62b4e4a256daf4b2.png?v=1477492288"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "West Ham United",
+      "city": "London",
+      "goal": 9,
+      "stadiumName": "Olympic Stadium",
+      "stadiumCapacity": 60010,
+      "ranking": 17,
+      "stadiumLevel": 0,
+      "previousRanking": 14,
+      "budget": 1125000
+    }
+  },
+  {
+    "id": 62961859,
+    "leagueId": 4238643,
+    "value": 14135813,
+    "price": 19083348,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494158654,
+    "player": {
+      "id": 248549699,
+      "assets": [],
+      "fullName": "Lucas P�rez",
+      "name": "P�rez",
+      "position": 1,
+      "statAtt": 86,
+      "statDef": 19,
+      "statOvr": 52,
+      "age": 28,
+      "teamId": 51496,
+      "leagueId": 4238643,
+      "fitness": 95,
+      "morale": 91,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 14135813,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 7,
+      "averagePlayerGrade": 7.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 25,
+        "code": "ES",
+        "name": "Spaanse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51496,
+      "uniqueId": "4238643_51496",
+      "assets": [
+        {
+          "id": 8734,
+          "type": 3,
+          "value": "Real-Sociedad.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/4f85b831d9c982dd0b8b30b3432331dd666616f7.png?v=1477491770"
+        },
+        {
+          "id": 8735,
+          "type": 4,
+          "value": "Real-Sociedad.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/4f85b831d9c982dd0b8b30b3432331dd666616f7.png?v=1477491770"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Real Sociedad",
+      "city": "San Sebasti�n",
+      "goal": 0,
+      "stadiumName": "Anoeta",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 1,
+      "uniqueId": "4238643_1",
+      "assets": [
+        {
+          "id": 8126,
+          "type": 3,
+          "value": "arsenal.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/907d0a85dea5da56b7640ceebcb2141c2fb82386.png?v=1477492205"
+        },
+        {
+          "id": 8127,
+          "type": 4,
+          "value": "arsenal.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/907d0a85dea5da56b7640ceebcb2141c2fb82386.png?v=1477492205"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Arsenal",
+      "city": "London",
+      "goal": 1,
+      "stadiumName": "Emirates Stadium",
+      "stadiumCapacity": 60432,
+      "ranking": 3,
+      "stadiumLevel": 0,
+      "previousRanking": 13,
+      "budget": 1500000
+    }
+  },
+  {
+    "id": 62961856,
+    "leagueId": 4238643,
+    "value": 7697827,
+    "price": 11597872,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494158654,
+    "player": {
+      "id": 248550139,
+      "assets": [],
+      "fullName": "Georges-Kevin N'Koudou",
+      "name": "N'Koudou",
+      "position": 1,
+      "statAtt": 78,
+      "statDef": 35,
+      "statOvr": 56,
+      "age": 22,
+      "teamId": 51081,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 83,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 7697827,
+      "yellowCards": 0,
+      "trainingProgress": 45,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 11,
+        "code": "FR",
+        "name": "Franse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51081,
+      "uniqueId": "4238643_51081",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Rubin Kazan",
+      "city": "Kazan",
+      "goal": 0,
+      "stadiumName": "Kazan Arena",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 18,
+      "uniqueId": "4238643_18",
+      "assets": [
+        {
+          "id": 8158,
+          "type": 3,
+          "value": "hotspur.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/8f43d8dc4538069b8716e47ef1caf993ebc74c6f.png?v=1477492276"
+        },
+        {
+          "id": 8159,
+          "type": 4,
+          "value": "hotspur.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/8f43d8dc4538069b8716e47ef1caf993ebc74c6f.png?v=1477492276"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Tottenham Hotspur",
+      "city": "London",
+      "goal": 4,
+      "stadiumName": "White Hart Lane",
+      "stadiumCapacity": 36274,
+      "ranking": 5,
+      "stadiumLevel": 0,
+      "previousRanking": 8,
+      "budget": 1375000
+    }
+  },
+  {
+    "id": 62961853,
+    "leagueId": 4238643,
+    "value": 676721,
+    "price": 1691541,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494158654,
+    "player": {
+      "id": 248549706,
+      "assets": [],
+      "fullName": "Paul Robinson",
+      "name": "Robinson",
+      "position": 4,
+      "statAtt": 0,
+      "statDef": 63,
+      "statOvr": 31,
+      "age": 37,
+      "teamId": 49325,
+      "leagueId": 4238643,
+      "fitness": 97,
+      "morale": 91,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 676721,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 7,
+      "averagePlayerGrade": 7.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 8,
+        "code": "GB",
+        "name": "Engelse"
+      }
+    },
+    "destinationTeam": {
+      "id": 49325,
+      "uniqueId": "4238643_49325",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Lokomotiv Plovdiv",
+      "city": "Plovdiv",
+      "goal": 0,
+      "stadiumName": "Lokomotiv Stadium",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 2,
+      "uniqueId": "4238643_2",
+      "assets": [
+        {
+          "id": 8138,
+          "type": 3,
+          "value": "burnley.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/37561fce216b906cd09c25ca5c8d278f5cc8c565.png?v=1477492212"
+        },
+        {
+          "id": 8139,
+          "type": 4,
+          "value": "burnley.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/37561fce216b906cd09c25ca5c8d278f5cc8c565.png?v=1477492212"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Burnley",
+      "city": "Burnley",
+      "goal": 16,
+      "stadiumName": "Turf Moor",
+      "stadiumCapacity": 22546,
+      "ranking": 6,
+      "stadiumLevel": 0,
+      "previousRanking": 9,
+      "budget": 750000
+    }
+  },
+  {
+    "id": 62961851,
+    "leagueId": 4238643,
+    "value": 2842211,
+    "price": 4488658,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494158654,
+    "player": {
+      "id": 248549721,
+      "assets": [],
+      "fullName": "Dean Marney",
+      "name": "Marney",
+      "position": 2,
+      "statAtt": 71,
+      "statDef": 71,
+      "statOvr": 71,
+      "age": 33,
+      "teamId": 52143,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 86,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 2842211,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 8,
+        "code": "GB",
+        "name": "Engelse"
+      }
+    },
+    "destinationTeam": {
+      "id": 52143,
+      "uniqueId": "4238643_52143",
+      "assets": [
+        {
+          "id": 821,
+          "type": 3,
+          "value": "Rio Ave-S.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/d4ca4e92f7de4a860e59b1dd1eb53081bba47491.png?v=1448583860"
+        },
+        {
+          "id": 820,
+          "type": 4,
+          "value": "Rio Ave.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/d4ca4e92f7de4a860e59b1dd1eb53081bba47491.png?v=1448583860"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Rio Ave",
+      "city": "Vila do Conde",
+      "goal": 0,
+      "stadiumName": "Est�dio dos Arcos",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 2,
+      "uniqueId": "4238643_2",
+      "assets": [
+        {
+          "id": 8138,
+          "type": 3,
+          "value": "burnley.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/37561fce216b906cd09c25ca5c8d278f5cc8c565.png?v=1477492212"
+        },
+        {
+          "id": 8139,
+          "type": 4,
+          "value": "burnley.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/37561fce216b906cd09c25ca5c8d278f5cc8c565.png?v=1477492212"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Burnley",
+      "city": "Burnley",
+      "goal": 16,
+      "stadiumName": "Turf Moor",
+      "stadiumCapacity": 22546,
+      "ranking": 6,
+      "stadiumLevel": 0,
+      "previousRanking": 9,
+      "budget": 750000
+    }
+  },
+  {
+    "id": 62961849,
+    "leagueId": 4238643,
+    "value": 8964921,
+    "price": 14997691,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494158653,
+    "player": {
+      "id": 248550022,
+      "assets": [
+        {
+          "id": 235,
+          "type": 1,
+          "value": "jordy_clasie.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Normal/a77cbd005376381fb1b2bdccdc02d9ba901068da.png?v=0"
+        }
+      ],
+      "fullName": "Jordy Clasie",
+      "name": "Clasie",
+      "position": 2,
+      "statAtt": 79,
+      "statDef": 83,
+      "statOvr": 81,
+      "age": 25,
+      "teamId": 51186,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 91,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 8964921,
+      "yellowCards": 0,
+      "trainingProgress": 57,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 17,
+        "code": "NL",
+        "name": "Nederlandse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51186,
+      "uniqueId": "4238643_51186",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Shakhtar Donetsk",
+      "city": "Donetsk",
+      "goal": 0,
+      "stadiumName": "Arena Lviv",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 14,
+      "uniqueId": "4238643_14",
+      "assets": [
+        {
+          "id": 8150,
+          "type": 3,
+          "value": "southampton.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/8ac799c67f7b72d80defb84b32049d6f77b1e70c.png?v=1477492254"
+        },
+        {
+          "id": 8151,
+          "type": 4,
+          "value": "southampton.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/8ac799c67f7b72d80defb84b32049d6f77b1e70c.png?v=1477492254"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Southampton",
+      "city": "Southampton",
+      "goal": 7,
+      "stadiumName": "St Mary's Stadium",
+      "stadiumCapacity": 32689,
+      "ranking": 11,
+      "stadiumLevel": 0,
+      "previousRanking": 4,
+      "budget": 1250000
+    }
+  },
+  {
+    "id": 62961848,
+    "leagueId": 4238643,
+    "value": 6492337,
+    "price": 9928253,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494158653,
+    "player": {
+      "id": 248550028,
+      "assets": [
+        {
+          "id": 376,
+          "type": 1,
+          "value": "oriol_romeu.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Normal/ad4ea171f67dd2fa735c0b2a989b78195db78b36.png?v=0"
+        }
+      ],
+      "fullName": "Oriol Romeu",
+      "name": "Romeu",
+      "position": 2,
+      "statAtt": 74,
+      "statDef": 81,
+      "statOvr": 77,
+      "age": 25,
+      "teamId": 51083,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 90,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 6492337,
+      "yellowCards": 0,
+      "trainingProgress": 90,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 25,
+        "code": "ES",
+        "name": "Spaanse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51083,
+      "uniqueId": "4238643_51083",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Terek Grozny",
+      "city": "Grozny",
+      "goal": 0,
+      "stadiumName": "Akhmat-Arena",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 14,
+      "uniqueId": "4238643_14",
+      "assets": [
+        {
+          "id": 8150,
+          "type": 3,
+          "value": "southampton.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/8ac799c67f7b72d80defb84b32049d6f77b1e70c.png?v=1477492254"
+        },
+        {
+          "id": 8151,
+          "type": 4,
+          "value": "southampton.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/8ac799c67f7b72d80defb84b32049d6f77b1e70c.png?v=1477492254"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Southampton",
+      "city": "Southampton",
+      "goal": 7,
+      "stadiumName": "St Mary's Stadium",
+      "stadiumCapacity": 32689,
+      "ranking": 11,
+      "stadiumLevel": 0,
+      "previousRanking": 4,
+      "budget": 1250000
+    }
+  },
+  {
+    "id": 62961847,
+    "leagueId": 4238643,
+    "value": 655581,
+    "price": 1638950,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494158653,
+    "player": {
+      "id": 248550093,
+      "assets": [
+        {
+          "id": 6024,
+          "type": 0,
+          "value": "gerhard_tremmel_o_1516.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Small/d329df75a39bf903c7d0b3ab67debe508d171734.png?v=1463151350"
+        },
+        {
+          "id": 6025,
+          "type": 1,
+          "value": "gerhard_tremmel_o_1516.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Normal/d329df75a39bf903c7d0b3ab67debe508d171734.png?v=1463151350"
+        }
+      ],
+      "fullName": "Gerhard Tremmel",
+      "name": "Tremmel",
+      "position": 4,
+      "statAtt": 0,
+      "statDef": 63,
+      "statOvr": 31,
+      "age": 38,
+      "teamId": 52610,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 83,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 655581,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 12,
+        "code": "DE",
+        "name": "Duitse"
+      }
+    },
+    "destinationTeam": {
+      "id": 52610,
+      "uniqueId": "4238643_52610",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Toronto FC",
+      "city": "Toronto - ON",
+      "goal": 0,
+      "stadiumName": "BMO Field",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 17,
+      "uniqueId": "4238643_17",
+      "assets": [
+        {
+          "id": 8156,
+          "type": 3,
+          "value": "swansea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/3a7da17261a3d30eea66822c964cf7af5e92ba6f.png?v=1477492266"
+        },
+        {
+          "id": 8157,
+          "type": 4,
+          "value": "swansea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/3a7da17261a3d30eea66822c964cf7af5e92ba6f.png?v=1477492266"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Swansea City",
+      "city": "Swansea",
+      "goal": 11,
+      "stadiumName": "Liberty Stadium",
+      "stadiumCapacity": 20972,
+      "ranking": 12,
+      "stadiumLevel": 0,
+      "previousRanking": 17,
+      "budget": 1000000
+    }
+  },
+  {
+    "id": 62961844,
+    "leagueId": 4238643,
+    "value": 1336768,
+    "price": 3121962,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494158653,
+    "player": {
+      "id": 248550106,
+      "assets": [],
+      "fullName": "Jay Fulton",
+      "name": "Fulton",
+      "position": 2,
+      "statAtt": 62,
+      "statDef": 63,
+      "statOvr": 62,
+      "age": 23,
+      "teamId": 51379,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 83,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 1336768,
+      "yellowCards": 0,
+      "trainingProgress": 4,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 23,
+        "code": "SCL",
+        "name": "Schotse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51379,
+      "uniqueId": "4238643_51379",
+      "assets": [
+        {
+          "id": 1315,
+          "type": 3,
+          "value": "1025.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/44cb84a99397d58afb58d22e18e916925db622d3.png?v=0"
+        },
+        {
+          "id": 1313,
+          "type": 4,
+          "value": "1025.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/44cb84a99397d58afb58d22e18e916925db622d3.png?v=0"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "NEC Nijmegen",
+      "city": "Nijmegen",
+      "goal": 0,
+      "stadiumName": "Stadion de Goffert",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 17,
+      "uniqueId": "4238643_17",
+      "assets": [
+        {
+          "id": 8156,
+          "type": 3,
+          "value": "swansea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/3a7da17261a3d30eea66822c964cf7af5e92ba6f.png?v=1477492266"
+        },
+        {
+          "id": 8157,
+          "type": 4,
+          "value": "swansea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/3a7da17261a3d30eea66822c964cf7af5e92ba6f.png?v=1477492266"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Swansea City",
+      "city": "Swansea",
+      "goal": 11,
+      "stadiumName": "Liberty Stadium",
+      "stadiumCapacity": 20972,
+      "ranking": 12,
+      "stadiumLevel": 0,
+      "previousRanking": 17,
+      "budget": 1000000
+    }
+  },
+  {
+    "id": 62961841,
+    "leagueId": 4238643,
+    "value": 1722839,
+    "price": 4307097,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494158653,
+    "player": {
+      "id": 248549707,
+      "assets": [],
+      "fullName": "Tendayi Darikwa",
+      "name": "Darikwa",
+      "position": 3,
+      "statAtt": 21,
+      "statDef": 64,
+      "statOvr": 42,
+      "age": 25,
+      "teamId": 51381,
+      "leagueId": 4238643,
+      "fitness": 96,
+      "morale": 91,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 1722839,
+      "yellowCards": 1,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 5,
+      "averagePlayerGrade": 5.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 8,
+        "code": "GB",
+        "name": "Engelse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51381,
+      "uniqueId": "4238643_51381",
+      "assets": [
+        {
+          "id": 264,
+          "type": 3,
+          "value": "1036.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/3670390be899859e5d7ba84bb637d17562a2551f.png?v=0"
+        },
+        {
+          "id": 191,
+          "type": 4,
+          "value": "1036.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/3670390be899859e5d7ba84bb637d17562a2551f.png?v=0"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "SC Heerenveen",
+      "city": "Heerenveen",
+      "goal": 0,
+      "stadiumName": "Abe Lenstra Stadion",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 2,
+      "uniqueId": "4238643_2",
+      "assets": [
+        {
+          "id": 8138,
+          "type": 3,
+          "value": "burnley.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/37561fce216b906cd09c25ca5c8d278f5cc8c565.png?v=1477492212"
+        },
+        {
+          "id": 8139,
+          "type": 4,
+          "value": "burnley.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/37561fce216b906cd09c25ca5c8d278f5cc8c565.png?v=1477492212"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Burnley",
+      "city": "Burnley",
+      "goal": 16,
+      "stadiumName": "Turf Moor",
+      "stadiumCapacity": 22546,
+      "ranking": 6,
+      "stadiumLevel": 0,
+      "previousRanking": 9,
+      "budget": 750000
+    }
+  },
+  {
+    "id": 62960417,
+    "leagueId": 4238643,
+    "value": 30723928,
+    "price": 39306454,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494156376,
+    "player": {
+      "id": 248550203,
+      "assets": [],
+      "fullName": "Sergio Busquets",
+      "name": "Busquets",
+      "position": 2,
+      "statAtt": 96,
+      "statDef": 102,
+      "statOvr": 99,
+      "age": 28,
+      "teamId": 11,
+      "leagueId": 4238643,
+      "fitness": 96,
+      "morale": 100,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 7,
+      "price": 0,
+      "value": 30723928,
+      "yellowCards": 0,
+      "trainingProgress": 18,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 8,
+      "averagePlayerGrade": 8.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 25,
+        "code": "ES",
+        "name": "Spaanse"
+      }
+    },
+    "destinationTeam": {
+      "id": 11,
+      "uniqueId": "4238643_11",
+      "assets": [
+        {
+          "id": 8146,
+          "type": 3,
+          "value": "manu.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/fafdc585a699afe16169a8bd88f6fe3e1652ff13.png?v=1477492246"
+        },
+        {
+          "id": 8147,
+          "type": 4,
+          "value": "manu.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/fafdc585a699afe16169a8bd88f6fe3e1652ff13.png?v=1477492246"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Manchester United",
+      "city": "Manchester",
+      "goal": 4,
+      "stadiumName": "Old Trafford",
+      "stadiumCapacity": 76100,
+      "ranking": 10,
+      "stadiumLevel": 0,
+      "previousRanking": 16,
+      "budget": 1350000
+    },
+    "sourceTeam": {
+      "id": 51483,
+      "uniqueId": "4238643_51483",
+      "assets": [
+        {
+          "id": 8710,
+          "type": 3,
+          "value": "Barcelona.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/0ff8ced5a3c68a47b712bc34c1adbde6e327f4f4.png?v=1477491711"
+        },
+        {
+          "id": 8711,
+          "type": 4,
+          "value": "Barcelona.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/0ff8ced5a3c68a47b712bc34c1adbde6e327f4f4.png?v=1477491711"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Barcelona",
+      "city": "Barcelona",
+      "goal": 0,
+      "stadiumName": "Camp Nou",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    }
+  },
+  {
+    "id": 62956842,
+    "leagueId": 4238643,
+    "value": 2746352,
+    "price": 6865877,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494151444,
+    "player": {
+      "id": 248549961,
+      "assets": [],
+      "fullName": "F�bio Pereira da Silva",
+      "name": "F�bio",
+      "position": 3,
+      "statAtt": 33,
+      "statDef": 70,
+      "statOvr": 51,
+      "age": 26,
+      "teamId": 51176,
+      "leagueId": 4238643,
+      "fitness": 96,
+      "morale": 91,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 2746352,
+      "yellowCards": 0,
+      "trainingProgress": 82,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 6,
+      "averagePlayerGrade": 6.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 76,
+        "code": "BR",
+        "name": "Braziliaanse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51176,
+      "uniqueId": "4238643_51176",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Chornomorets Odesa",
+      "city": "Odesa",
+      "goal": 0,
+      "stadiumName": "Chornomorets Stadium",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 12,
+      "uniqueId": "4238643_12",
+      "assets": [
+        {
+          "id": 8148,
+          "type": 3,
+          "value": "middlesbrough.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/b41b9f1f83434d3e5aa049d748ef65c7978af48c.png?v=1477492250"
+        },
+        {
+          "id": 8149,
+          "type": 4,
+          "value": "middlesbrough.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/b41b9f1f83434d3e5aa049d748ef65c7978af48c.png?v=1477492250"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Middlesbrough",
+      "city": "Middlesbrough",
+      "goal": 13,
+      "stadiumName": "Riverside Stadium",
+      "stadiumCapacity": 35100,
+      "ranking": 20,
+      "stadiumLevel": 0,
+      "previousRanking": 20,
+      "budget": 875000
+    }
+  },
+  {
+    "id": 62956839,
+    "leagueId": 4238643,
+    "value": 15329196,
+    "price": 20438928,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494151444,
+    "player": {
+      "id": 248549948,
+      "assets": [],
+      "fullName": "Zlatan Ibrahimovic",
+      "name": "Ibrahimovic",
+      "position": 1,
+      "statAtt": 90,
+      "statDef": 6,
+      "statOvr": 48,
+      "age": 35,
+      "teamId": 51441,
+      "leagueId": 4238643,
+      "fitness": 96,
+      "morale": 89,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 15329196,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 7,
+      "averagePlayerGrade": 7.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 4,
+        "code": "SE",
+        "name": "Zweedse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51441,
+      "uniqueId": "4238643_51441",
+      "assets": [
+        {
+          "id": 9134,
+          "type": 3,
+          "value": "AS-Monaco.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/c83993ecbcff738cab1895535ce3d82f64ea0957.png?v=1477672157"
+        },
+        {
+          "id": 9135,
+          "type": 4,
+          "value": "AS-Monaco.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/c83993ecbcff738cab1895535ce3d82f64ea0957.png?v=1477672157"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Monaco",
+      "city": "Fontvieille",
+      "goal": 0,
+      "stadiumName": "Stade Louis II",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 11,
+      "uniqueId": "4238643_11",
+      "assets": [
+        {
+          "id": 8146,
+          "type": 3,
+          "value": "manu.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/fafdc585a699afe16169a8bd88f6fe3e1652ff13.png?v=1477492246"
+        },
+        {
+          "id": 8147,
+          "type": 4,
+          "value": "manu.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/fafdc585a699afe16169a8bd88f6fe3e1652ff13.png?v=1477492246"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Manchester United",
+      "city": "Manchester",
+      "goal": 4,
+      "stadiumName": "Old Trafford",
+      "stadiumCapacity": 76100,
+      "ranking": 10,
+      "stadiumLevel": 0,
+      "previousRanking": 16,
+      "budget": 1350000
+    }
+  },
+  {
+    "id": 62956838,
+    "leagueId": 4238643,
+    "value": 5172825,
+    "price": 12932060,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494151444,
+    "player": {
+      "id": 248550111,
+      "assets": [],
+      "fullName": "Nathan Dyer",
+      "name": "Dyer",
+      "position": 1,
+      "statAtt": 74,
+      "statDef": 41,
+      "statOvr": 57,
+      "age": 29,
+      "teamId": 51480,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 83,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 5172825,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 8,
+        "code": "GB",
+        "name": "Engelse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51480,
+      "uniqueId": "4238643_51480",
+      "assets": [
+        {
+          "id": 8730,
+          "type": 3,
+          "value": "Real-Betis.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/6d735947793cf00a92e1db98a572d98dc8dccc02.png?v=1477491762"
+        },
+        {
+          "id": 8731,
+          "type": 4,
+          "value": "Real-Betis.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/6d735947793cf00a92e1db98a572d98dc8dccc02.png?v=1477491762"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Real Betis",
+      "city": "Seville",
+      "goal": 0,
+      "stadiumName": "Benito Villamar�n",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 17,
+      "uniqueId": "4238643_17",
+      "assets": [
+        {
+          "id": 8156,
+          "type": 3,
+          "value": "swansea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/3a7da17261a3d30eea66822c964cf7af5e92ba6f.png?v=1477492266"
+        },
+        {
+          "id": 8157,
+          "type": 4,
+          "value": "swansea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/3a7da17261a3d30eea66822c964cf7af5e92ba6f.png?v=1477492266"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Swansea City",
+      "city": "Swansea",
+      "goal": 11,
+      "stadiumName": "Liberty Stadium",
+      "stadiumCapacity": 20972,
+      "ranking": 12,
+      "stadiumLevel": 0,
+      "previousRanking": 17,
+      "budget": 1000000
+    }
+  },
+  {
+    "id": 62955126,
+    "leagueId": 4238643,
+    "value": 12594613,
+    "price": 19998543,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494149379,
+    "player": {
+      "id": 248969760,
+      "assets": [],
+      "fullName": "Axel Witsel",
+      "name": "Witsel",
+      "position": 2,
+      "statAtt": 86,
+      "statDef": 85,
+      "statOvr": 85,
+      "age": 28,
+      "teamId": 17,
+      "leagueId": 4238643,
+      "fitness": 96,
+      "morale": 95,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 7,
+      "price": 0,
+      "value": 12594613,
+      "yellowCards": 0,
+      "trainingProgress": 51,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 7,
+      "averagePlayerGrade": 7.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 3,
+        "code": "BE",
+        "name": "Belgische"
+      }
+    },
+    "destinationTeam": {
+      "id": 17,
+      "uniqueId": "4238643_17",
+      "assets": [
+        {
+          "id": 8156,
+          "type": 3,
+          "value": "swansea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/3a7da17261a3d30eea66822c964cf7af5e92ba6f.png?v=1477492266"
+        },
+        {
+          "id": 8157,
+          "type": 4,
+          "value": "swansea.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/3a7da17261a3d30eea66822c964cf7af5e92ba6f.png?v=1477492266"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Swansea City",
+      "city": "Swansea",
+      "goal": 11,
+      "stadiumName": "Liberty Stadium",
+      "stadiumCapacity": 20972,
+      "ranking": 12,
+      "stadiumLevel": 0,
+      "previousRanking": 17,
+      "budget": 1000000
+    },
+    "sourceTeam": {
+      "id": 52759,
+      "uniqueId": "4238643_52759",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Tianjin Quanjian",
+      "city": "Tianjin",
+      "goal": 0,
+      "stadiumName": "Haihe Educational Football Stadium",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    }
+  },
+  {
+    "id": 62954685,
+    "leagueId": 4238643,
+    "value": 12239695,
+    "price": 16627325,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494148164,
+    "player": {
+      "id": 248550211,
+      "assets": [],
+      "fullName": "Ezequiel Garay",
+      "name": "Garay",
+      "position": 3,
+      "statAtt": 13,
+      "statDef": 90,
+      "statOvr": 51,
+      "age": 30,
+      "teamId": 20,
+      "leagueId": 4238643,
+      "fitness": 95,
+      "morale": 95,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 5,
+      "price": 0,
+      "value": 12239695,
+      "yellowCards": 1,
+      "trainingProgress": 49,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 5,
+      "averagePlayerGrade": 5.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 1,
+        "code": "AR",
+        "name": "Argentijnse"
+      }
+    },
+    "destinationTeam": {
+      "id": 20,
+      "uniqueId": "4238643_20",
+      "assets": [
+        {
+          "id": 8124,
+          "type": 3,
+          "value": "westham.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/af4044eb5b61004ee5f0c92b62b4e4a256daf4b2.png?v=1477492288"
+        },
+        {
+          "id": 8125,
+          "type": 4,
+          "value": "westham.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/af4044eb5b61004ee5f0c92b62b4e4a256daf4b2.png?v=1477492288"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "West Ham United",
+      "city": "London",
+      "goal": 9,
+      "stadiumName": "Olympic Stadium",
+      "stadiumCapacity": 60010,
+      "ranking": 17,
+      "stadiumLevel": 0,
+      "previousRanking": 14,
+      "budget": 1125000
+    },
+    "sourceTeam": {
+      "id": 51498,
+      "uniqueId": "4238643_51498",
+      "assets": [
+        {
+          "id": 8740,
+          "type": 3,
+          "value": "Valencia-CF.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/0cb25dc49239046d459cc04f765d4b373eaeb3f2.png?v=1477491783"
+        },
+        {
+          "id": 8741,
+          "type": 4,
+          "value": "Valencia-CF.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/0cb25dc49239046d459cc04f765d4b373eaeb3f2.png?v=1477491783"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Valencia",
+      "city": "Valencia",
+      "goal": 0,
+      "stadiumName": "Mestalla",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    }
+  },
+  {
+    "id": 62954676,
+    "leagueId": 4238643,
+    "value": 14606382,
+    "price": 20887009,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494148145,
+    "player": {
+      "id": 249046411,
+      "assets": [],
+      "fullName": "Julian Brandt",
+      "name": "Brandt",
+      "position": 2,
+      "statAtt": 90,
+      "statDef": 84,
+      "statOvr": 87,
+      "age": 21,
+      "teamId": 20,
+      "leagueId": 4238643,
+      "fitness": 96,
+      "morale": 94,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 8,
+      "price": 0,
+      "value": 14606382,
+      "yellowCards": 0,
+      "trainingProgress": 54,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 6,
+      "averagePlayerGrade": 6.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 12,
+        "code": "DE",
+        "name": "Duitse"
+      }
+    },
+    "destinationTeam": {
+      "id": 20,
+      "uniqueId": "4238643_20",
+      "assets": [
+        {
+          "id": 8124,
+          "type": 3,
+          "value": "westham.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/af4044eb5b61004ee5f0c92b62b4e4a256daf4b2.png?v=1477492288"
+        },
+        {
+          "id": 8125,
+          "type": 4,
+          "value": "westham.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/af4044eb5b61004ee5f0c92b62b4e4a256daf4b2.png?v=1477492288"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "West Ham United",
+      "city": "London",
+      "goal": 9,
+      "stadiumName": "Olympic Stadium",
+      "stadiumCapacity": 60010,
+      "ranking": 17,
+      "stadiumLevel": 0,
+      "previousRanking": 14,
+      "budget": 1125000
+    },
+    "sourceTeam": {
+      "id": 52849,
+      "uniqueId": "4238643_52849",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Bayer 04 Leverkusen",
+      "city": "Leverkusen",
+      "goal": 0,
+      "stadiumName": "BayArena",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    }
+  },
+  {
+    "id": 62953305,
+    "leagueId": 4238643,
+    "value": 14780456,
+    "price": 18623304,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494145015,
+    "player": {
+      "id": 249044718,
+      "assets": [
+        {
+          "id": 5090,
+          "type": 0,
+          "value": "Youri Tielemans.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Small/533e45a09473a1b2e78b8c70f902dbaa1b26c3aa.png?v=1448665624"
+        },
+        {
+          "id": 3035,
+          "type": 1,
+          "value": "Youri Tielemans.png",
+          "path": "https://assets.onlinesoccermanager.com/Player/Normal/533e45a09473a1b2e78b8c70f902dbaa1b26c3aa.png?v=1448665624"
+        }
+      ],
+      "fullName": "Youri Tielemans",
+      "name": "Tielemans",
+      "position": 2,
+      "statAtt": 87,
+      "statDef": 89,
+      "statOvr": 88,
+      "age": 20,
+      "teamId": 12,
+      "leagueId": 4238643,
+      "fitness": 97,
+      "morale": 94,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 15983121,
+      "yellowCards": 0,
+      "trainingProgress": 9,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 6,
+      "averagePlayerGrade": 6.0,
+      "matchesPlayed": 1,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 3,
+        "code": "BE",
+        "name": "Belgische"
+      }
+    },
+    "destinationTeam": {
+      "id": 12,
+      "uniqueId": "4238643_12",
+      "assets": [
+        {
+          "id": 8148,
+          "type": 3,
+          "value": "middlesbrough.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/b41b9f1f83434d3e5aa049d748ef65c7978af48c.png?v=1477492250"
+        },
+        {
+          "id": 8149,
+          "type": 4,
+          "value": "middlesbrough.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/b41b9f1f83434d3e5aa049d748ef65c7978af48c.png?v=1477492250"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Middlesbrough",
+      "city": "Middlesbrough",
+      "goal": 13,
+      "stadiumName": "Riverside Stadium",
+      "stadiumCapacity": 35100,
+      "ranking": 20,
+      "stadiumLevel": 0,
+      "previousRanking": 20,
+      "budget": 875000
+    },
+    "sourceTeam": {
+      "id": 52988,
+      "uniqueId": "4238643_52988",
+      "assets": [
+        {
+          "id": 7968,
+          "type": 3,
+          "value": "RSCA_official_emblem_3stars.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/74befe40f0cafd1f8fe4845ea9719568d674e2e5.png?v=1467277682"
+        },
+        {
+          "id": 2980,
+          "type": 4,
+          "value": "Anderlecht.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/74befe40f0cafd1f8fe4845ea9719568d674e2e5.png?v=1467277682"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Anderlecht",
+      "city": "Anderlecht",
+      "goal": 0,
+      "stadiumName": "Constant Vanden Stock Stadium",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    }
+  },
+  {
+    "id": 62951079,
+    "leagueId": 4238643,
+    "value": 8334622,
+    "price": 20836552,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494144242,
+    "player": {
+      "id": 248550182,
+      "assets": [],
+      "fullName": "Andy Carroll",
+      "name": "Carroll A.",
+      "position": 1,
+      "statAtt": 80,
+      "statDef": 9,
+      "statOvr": 44,
+      "age": 28,
+      "teamId": 51081,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 83,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 8334622,
+      "yellowCards": 0,
+      "trainingProgress": 45,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 8,
+        "code": "GB",
+        "name": "Engelse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51081,
+      "uniqueId": "4238643_51081",
+      "assets": [],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Rubin Kazan",
+      "city": "Kazan",
+      "goal": 0,
+      "stadiumName": "Kazan Arena",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 20,
+      "uniqueId": "4238643_20",
+      "assets": [
+        {
+          "id": 8124,
+          "type": 3,
+          "value": "westham.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/af4044eb5b61004ee5f0c92b62b4e4a256daf4b2.png?v=1477492288"
+        },
+        {
+          "id": 8125,
+          "type": 4,
+          "value": "westham.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/af4044eb5b61004ee5f0c92b62b4e4a256daf4b2.png?v=1477492288"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "West Ham United",
+      "city": "London",
+      "goal": 9,
+      "stadiumName": "Olympic Stadium",
+      "stadiumCapacity": 60010,
+      "ranking": 17,
+      "stadiumLevel": 0,
+      "previousRanking": 14,
+      "budget": 1125000
+    }
+  },
+  {
+    "id": 62951075,
+    "leagueId": 4238643,
+    "value": 703279,
+    "price": 1193364,
+    "weekNr": 1,
+    "startDay": 0,
+    "timestamp": 1494144242,
+    "player": {
+      "id": 248549908,
+      "assets": [],
+      "fullName": "Angus Gunn",
+      "name": "Gunn",
+      "position": 4,
+      "statAtt": 0,
+      "statDef": 58,
+      "statOvr": 29,
+      "age": 21,
+      "teamId": 51376,
+      "leagueId": 4238643,
+      "fitness": 100,
+      "morale": 90,
+      "goals": 0,
+      "status": 0,
+      "unavailable": 0,
+      "lineup": 0,
+      "price": 0,
+      "value": 703279,
+      "yellowCards": 0,
+      "trainingProgress": 70,
+      "trainingForecast": 0,
+      "injuryId": 0,
+      "suspensionId": 0,
+      "assists": 0,
+      "lastPlayerGrade": 0,
+      "averagePlayerGrade": 0.0,
+      "matchesPlayed": 0,
+      "goalsLastMatch": 0,
+      "nationality": {
+        "id": 8,
+        "code": "GB",
+        "name": "Engelse"
+      }
+    },
+    "destinationTeam": {
+      "id": 51376,
+      "uniqueId": "4238643_51376",
+      "assets": [
+        {
+          "id": 1885,
+          "type": 4,
+          "value": "Sparta Rotterdam.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/f6b45fb13e5bd2a4a3ecadb3d60f9f098e9beaf6.png?v=0"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Sparta Rotterdam",
+      "city": "Rotterdam",
+      "goal": 0,
+      "stadiumName": "Het Kasteel",
+      "stadiumCapacity": 0,
+      "ranking": 0,
+      "stadiumLevel": 0,
+      "previousRanking": 0,
+      "budget": 0
+    },
+    "sourceTeam": {
+      "id": 10,
+      "uniqueId": "4238643_10",
+      "assets": [
+        {
+          "id": 8144,
+          "type": 3,
+          "value": "mancity.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Small/425caff1f88e908b0797d1fdef9bb2c20e0e7c34.png?v=1477492241"
+        },
+        {
+          "id": 8145,
+          "type": 4,
+          "value": "mancity.png",
+          "path": "https://assets.onlinesoccermanager.com/Team/Normal/425caff1f88e908b0797d1fdef9bb2c20e0e7c34.png?v=1477492241"
+        }
+      ],
+      "leagueId": 4238643,
+      "leagueTypeId": 0,
+      "name": "Manchester City",
+      "city": "Manchester",
+      "goal": 1,
+      "stadiumName": "Etihad Stadium",
+      "stadiumCapacity": 55097,
+      "ranking": 8,
+      "stadiumLevel": 0,
+      "previousRanking": 5,
+      "budget": 1500000
+    }
+  }
+]

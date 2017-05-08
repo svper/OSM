@@ -1,0 +1,49 @@
+<!doctype html>
+<html ng-app="osm">
+
+<head>
+    <meta charset="utf-8">
+    <title>Gretel</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="icon152x152.png">
+    <link rel="apple-touch-icon" href="icon32x32.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icon76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icon152x152.png">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,300" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link href="dist/osm.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="logo-gretel"><img src="dist/assets/images/logo_gretel.png"/></div>
+    <navbar></navbar>
+    <div class="views" ui-view></div>
+
+    <script src="dist/osm.js"></script>
+    <script src="https://use.fontawesome.com/dccd2660fb.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+    (function(b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+            function() {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-66375615-1');
+    ga('send', 'pageview');
+    </script>
+</body>
+</html>
