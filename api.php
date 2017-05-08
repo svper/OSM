@@ -69,6 +69,21 @@ function getTeam($id){
 		return $obj;
 	}
 }
+//get team with all the extra info added
+function getTeamDetails($id){
+	// 	Create connection
+	$conn = connect();
+	// 	Check connection
+	if ($conn->connect_error) {
+		die("Connection failed: " . $conn->connect_error);
+	}
+	$sql = "SELECT * FROM `team` WHERE id = ". $id;
+	$conn->query('SET CHARACTER SET utf8');
+	$result = $conn->query($sql);
+	while ($obj = mysqli_fetch_object($result)) {
+		return $obj;
+	}
+}
 
 function getTransfer($id){
 	// 	Create connection

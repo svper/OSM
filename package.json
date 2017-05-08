@@ -30,11 +30,9 @@
     "webpack-notifier": "^1.3.0"
   },
   "dependencies": {
-    "@types/angular": "^1.6.17",
-    "@types/angular-ui-bootstrap": "^0.13.41",
-    "@types/angular-ui-router": "^1.1.36",
-    "@types/angularjs": "^1.5.14-alpha",
-    "@types/node": "^7.0.18",
-    "@types/webpack": "^2.2.15"
+    "@types/angular": "1.5.23",
+    "@types/angular-ui-bootstrap": "0.13.41",
+    "@types/node": "6.0.73",
+    "@types/webpack": "1.12.36"
   }
 }

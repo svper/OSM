@@ -2,7 +2,12 @@
     "compilerOptions": {
         "target": "es5",
         "sourceMap": true,
-        "module": "commonjs"
+        "module": "commonjs",
+        "types": [
+            // add node as an option
+            "node",
+            "angular"
+         ]
     },
     "exclude": [
       "node_modules"
