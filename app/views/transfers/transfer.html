@@ -1,4 +1,3 @@
-
 <table>
     <tr ng-repeat="team in ctrl.teams">
         <td>{{team.name}}</td>
@@ -10,18 +9,19 @@
         <td>{{team.priceOut}}</td>
     </tr>
 </table>
-<table>
-    <tr ng-repeat="transfer in ctrl.transfers" ng-class="{'premier':transfer.sourceTeam.leagueId == transfer.destinationTeam.leagueId}">
-        <td>{{transfer.destinationTeam.name}}</td>
+<table class="table">
+    <tr ng-repeat="transfer in ctrl.transfers" ng-class="{'premier':transfer.sourceTeam.ranking > 0 && transfer.destinationTeam.ranking > 0}">
         <td>{{transfer.sourceTeam.name}}</td>
+        <td>{{transfer.destinationTeam.name}}</td>
         <td>{{transfer.player.fullName}}</td>
-        <td>{{transfer.value}}</td>
-        <td>{{transfer.price}}</td>
+        <td>{{transfer.value / 1000000 | number: 2}}</td>
+        <td>{{transfer.price / 1000000 | number: 2}}</td>
+        <td style="font-weight:bold">{{(transfer.price / 1000000) - (transfer.value / 1000000) | number: 2}}</td>
         <td>{{transfer.player.position}}</td>
         <td>{{transfer.player.age}}</td>
         <td>{{transfer.player.statAtt}}</td>
         <td>{{transfer.player.statDef}}</td>
         <td>{{transfer.player.statOvr}}</td>
-        <td>{{transfer.player.nationality}}</td>
+        <td class="nationality"><img ng-src='https://lipis.github.io/flag-icon-css/flags/4x3/{{transfer.player.nationality | lowercase}}.svg'/></td>
     </tr>
 </table>

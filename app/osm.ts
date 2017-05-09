@@ -16,6 +16,7 @@ var uirouter = require("angular-ui-router");
 //load in custom scss file
 require("../assets/styles/custom.scss");
 require("bootstrap/dist/js/bootstrap.js");
+require("bootstrap/dist/css/bootstrap.css");
 var app = angular.module("osm", [uirouter, uibootstrap]);
 
 app.controller(TransferCtrl.iid, TransferCtrl);

@@ -180,8 +180,8 @@ function insertTeam($team){
 									previousRanking,
 									budget) 
 		
-		 VALUES ('".$team->id."', '".$team->uniqueId."', '".$path."', '".$team->leagueId."', '".$team->leagueTypeId."', '".escape($conn,$team->name)."', '".$team->city."', '".
-			$team->goal."', '".$team->stadiumName."', '".$team->stadiumCapacity."', '".$team->ranking."', '".$team->stadiumLevel."', '".
+		 VALUES ('".$team->id."', '".$team->uniqueId."', '".$path."', '".$team->leagueId."', '".$team->leagueTypeId."', '".escape($conn,$team->name)."', '".escape($conn,$team->city)."', '".
+			$team->goal."', '".escape($conn,$team->stadiumName)."', '".$team->stadiumCapacity."', '".$team->ranking."', '".$team->stadiumLevel."', '".
 			$team->previousRanking."', '".$team->budget."')";
 			
 			$conn->query('SET CHARACTER SET utf8');
