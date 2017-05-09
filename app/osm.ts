@@ -8,6 +8,7 @@ var $ = require('jquery');
 
 //import * as uirouter from "angular-ui-router";
 import {TransferCtrl} from "./views/transfers/transferCtrl";
+import {TeamsCtrl} from "./views/teams/teamsCtrl";
 
 
 import {DataService} from "./services/dataService";
@@ -20,7 +21,7 @@ require("bootstrap/dist/css/bootstrap.css");
 var app = angular.module("osm", [uirouter, uibootstrap]);
 
 app.controller(TransferCtrl.iid, TransferCtrl);
-
+app.controller(TeamsCtrl.iid, TeamsCtrl);
 
 app.service(DataService.iid, DataService);
 
@@ -31,6 +32,12 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider: an
             url: '/transfers',
             template: require('./views/transfers/transfer.html'),
             controller: TransferCtrl.iid,
+            controllerAs: 'ctrl'
+        })
+        .state('teams', {
+            url: '/teams',
+            template: require('./views/teams/teams.html'),
+            controller: TeamsCtrl.iid,
             controllerAs: 'ctrl'
         });
 }]);

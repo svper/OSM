@@ -1,4 +1,5 @@
 <button class="btn btn-success" ng-click="ctrl.filterPremier()">Premier only</button>
+
 <table class="table">
     <tr>
     <th ng-click="ctrl.sortProperty = 'sourceTeam.id'">Seller</th>
@@ -13,7 +14,7 @@
     <th>DEF</th>
     <th>OVR</th>
     </tr>
-    <tr ng-repeat="transfer in ctrl.transfers | orderBy:ctrl.sortProperty" ng-class="{'premier':transfer.premierTransfer}">
+    <tr ng-repeat="transfer in ctrl.transfers | orderBy:ctrl.sortProperty | filter:ctrl.filter" ng-class="{'premier':transfer.sourceTeam.ranking > 0 && transfer.destinationTeam.ranking > 0}">
         <td>{{transfer.sourceTeam.name}}</td>
         <td>{{transfer.destinationTeam.name}}</td>
         <td>{{transfer.player.fullName}}</td>
@@ -27,4 +28,4 @@
         <td>{{transfer.player.statOvr}}</td>
         <td class="nationality"><img ng-src='https://lipis.github.io/flag-icon-css/flags/4x3/{{transfer.player.nationality | lowercase}}.svg'/></td>
     </tr>
-</table>
+</table><!--https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/team-badges/svg/STK.svg-->

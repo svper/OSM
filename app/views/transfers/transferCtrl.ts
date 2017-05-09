@@ -5,12 +5,22 @@ import { Player, Team, Transfer } from "../../models/models";
 export class TransferCtrl {
     static iid = "TransferCtrl";
     static $inject = [DataService.iid];
-    transfers: any[];
+    transfers: any[] = [];
+    sortProperty: string = "-timestamp";
+    filter: any;
     constructor(public dataSvc: DataService) {
         this.dataSvc.getTransfers().then((transfers: Transfer[]) => {
-            this.transfers = transfers;
-        }, () => { 
-            alert("call failed"); });
+            for (let t of transfers) {
+                this.transfers.push(t);
+            }
+            //this.transfers = transfers;
+        }, () => {
+            alert("call failed");
+        });
+    }
+
+    filterPremier = () => {
+        this.filter = { premierTransfer: true };
     }
 
 }
