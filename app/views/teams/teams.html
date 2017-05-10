@@ -1,31 +1,33 @@
-<button class="btn btn-success" ng-click="ctrl.filterPremier()">Premier only</button>
-
+{{ctrl.teams.length}} teams in DB
 <table class="table">
     <tr>
-    <th ng-click="ctrl.sortProperty = 'sourceTeam.id'">Seller</th>
-    <th ng-click="ctrl.sortProperty = 'destinationTeam.id'">Buyer</th>
-    <th>Player</th>
-    <th ng-click="ctrl.sortProperty = '-value'" >Value</th>
-    <th ng-click="ctrl.sortProperty = '-price'">Price</th>
-    <th ng-click="ctrl.sortProperty = '-valuePriceDiff'">Diff</th>
-    <th>Position</th>
-    <th>Age</th>
-    <th>ATT</th>
-    <th>DEF</th>
-    <th>OVR</th>
+    <th ng-click="ctrl.sortProperty = '-name'">Name</th>
+    <th ng-click="ctrl.sortProperty = 'ranking'">ranking</th>
+    <th ng-click="ctrl.sortProperty = 'goal'">goal</th>
+    <th ng-click="ctrl.sortProperty = 'budget'">budget</th>
+    <th ng-click="ctrl.sortProperty = '-transfersIn'">Transfers Out</th>
+    <th ng-click="ctrl.sortProperty = '-transfersOut'">Transfers In</th>
+    <th ng-click="ctrl.sortProperty = '-transfersNet'">transfersNet</th>
+    <th ng-click="ctrl.sortProperty = '-valueOut'">valueOut</th>
+    <th ng-click="ctrl.sortProperty = '-valueIn'">valueIn</th>
+    <th ng-click="ctrl.sortProperty = '-valueNet'">valueNet</th>
+    <th ng-click="ctrl.sortProperty = '-priceOut'">priceOut</th>
+    <th ng-click="ctrl.sortProperty = '-priceIn'">priceIn</th>
+    <th ng-click="ctrl.sortProperty = '-priceNet'">priceNet</th>
     </tr>
-    <tr ng-repeat="transfer in ctrl.transfers | orderBy:ctrl.sortProperty | filter:ctrl.filter" ng-class="{'premier':transfer.sourceTeam.ranking > 0 && transfer.destinationTeam.ranking > 0}">
-        <td>{{transfer.sourceTeam.name}}</td>
-        <td>{{transfer.destinationTeam.name}}</td>
-        <td>{{transfer.player.fullName}}</td>
-        <td>{{transfer.value / 1000000 | number: 2}}</td>
-        <td>{{transfer.price / 1000000 | number: 2}}</td>
-        <td style="font-weight:bold">{{transfer.valuePriceDiff / 1000000 | number: 2}}</td>
-        <td>{{transfer.player.position}}</td>
-        <td>{{transfer.player.age}}</td>
-        <td>{{transfer.player.statAtt}}</td>
-        <td>{{transfer.player.statDef}}</td>
-        <td>{{transfer.player.statOvr}}</td>
-        <td class="nationality"><img ng-src='https://lipis.github.io/flag-icon-css/flags/4x3/{{transfer.player.nationality | lowercase}}.svg'/></td>
+    <tr ng-repeat="team in ctrl.teams | orderBy:ctrl.sortProperty | filter:ctrl.filter" ng-class="{'premier':transfer.sourceTeam.ranking > 0 && transfer.destinationTeam.ranking > 0}">
+        <td>{{team.name}}</td>
+        <td>{{team.ranking}}</td>
+        <td>{{team.goal}}</td>
+        <td>{{team.budget / 1000000 | number: 2}}</td>
+        <td>{{team.transfersOut}}</td>
+        <td>{{team.transfersIn}}</td>
+        <td>{{team.transfersNet}}</td>
+        <td>{{team.valueOut / 1000000 | number: 2}}</td>
+        <td>{{team.valueIn / 1000000 | number: 2}}</td>
+        <td>{{team.valueNet / 1000000 | number: 2}}</td>
+        <td>{{team.priceOut / 1000000 | number: 2}}</td>
+        <td>{{team.priceIn / 1000000 | number: 2}}</td>
+        <td>{{team.priceNet / 1000000 | number: 2}}</td>
     </tr>
 </table><!--https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/team-badges/svg/STK.svg-->

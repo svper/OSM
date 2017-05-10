@@ -6,12 +6,12 @@ export class TransferCtrl {
     static iid = "TransferCtrl";
     static $inject = [DataService.iid];
     transfers: any[] = [];
-    sortProperty: string = "-timestamp";
+    sortProperty: string = "-date";
     filter: any;
     constructor(public dataSvc: DataService) {
         this.dataSvc.getTransfers().then((transfers: Transfer[]) => {
             for (let t of transfers) {
-                this.transfers.push(t);
+                this.transfers.push(new Transfer(t));
             }
             //this.transfers = transfers;
         }, () => {
@@ -20,7 +20,7 @@ export class TransferCtrl {
     }
 
     filterPremier = () => {
-        this.filter = { premierTransfer: true };
+        this.transfers = this.transfers.filter((transfer:Transfer)=>{return transfer.premierTransfer});
     }
 
 }

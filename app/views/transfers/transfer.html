@@ -1,30 +1,32 @@
-<button class="btn btn-success" ng-click="ctrl.filterPremier()">Premier only</button>
+<button class="btn btn-success" ng-click="ctrl.filterPremier()">Premier only</button>&nbsp;{{ctrl.transfers.length}} transfers
 <table class="table">
     <tr>
-    <th ng-click="ctrl.sortProperty = 'sourceTeam.id'">Seller</th>
-    <th ng-click="ctrl.sortProperty = 'destinationTeam.id'">Buyer</th>
-    <th>Player</th>
-    <th ng-click="ctrl.sortProperty = '-value'" >Value</th>
-    <th ng-click="ctrl.sortProperty = '-price'">Price</th>
-    <th ng-click="ctrl.sortProperty = '-valuePriceDiff'">Diff</th>
-    <th>Position</th>
-    <th>Age</th>
-    <th>ATT</th>
-    <th>DEF</th>
-    <th>OVR</th>
+        <th ng-click="ctrl.sortProperty = '-date'">Date</th>
+        <th ng-click="ctrl.sortProperty = 'sourceTeam.id'">Seller</th>
+        <th ng-click="ctrl.sortProperty = 'destinationTeam.id'">Buyer</th>
+        <th>Player</th>
+        <th ng-click="ctrl.sortProperty = '-value'">Value</th>
+        <th ng-click="ctrl.sortProperty = '-price'">Price</th>
+        <th ng-click="ctrl.sortProperty = '-valuePriceDiff'">Diff</th>
+        <th ng-click="ctrl.sortProperty = '-player.position'">Position</th>
+        <th ng-click="ctrl.sortProperty = '-player.age'">Age</th>
+        <th ng-click="ctrl.sortProperty = '-player.statAtt'">ATT</th>
+        <th ng-click="ctrl.sortProperty = '-player.statDef'">DEF</th>
+        <th ng-click="ctrl.sortProperty = '-player.statOvr'">OVR</th>
     </tr>
     <tr ng-repeat="transfer in ctrl.transfers | orderBy:ctrl.sortProperty" ng-class="{'premier':transfer.premierTransfer}">
-        <td>{{transfer.sourceTeam.name}}</td>
-        <td>{{transfer.destinationTeam.name}}</td>
+        <td>{{transfer.date | date:'dd-MM-yyyy HH:mm'}}</td>
+        <td ng-class="{'premier':transfer.sourceTeam.ranking > 0}">{{transfer.sourceTeam.name}}</td>
+        <td ng-class="{'premier':transfer.destinationTeam.ranking > 0}">{{transfer.destinationTeam.name}}</td>
         <td>{{transfer.player.fullName}}</td>
         <td>{{transfer.value / 1000000 | number: 2}}</td>
         <td>{{transfer.price / 1000000 | number: 2}}</td>
         <td style="font-weight:bold">{{transfer.valuePriceDiff / 1000000 | number: 2}}</td>
-        <td>{{transfer.player.position}}</td>
+        <td>{{transfer.player.type}}</td>
         <td>{{transfer.player.age}}</td>
         <td>{{transfer.player.statAtt}}</td>
         <td>{{transfer.player.statDef}}</td>
         <td>{{transfer.player.statOvr}}</td>
-        <td class="nationality"><img ng-src='https://lipis.github.io/flag-icon-css/flags/4x3/{{transfer.player.nationality | lowercase}}.svg'/></td>
+        <td class="nationality"><img ng-src='https://lipis.github.io/flag-icon-css/flags/4x3/{{transfer.player.nationality | lowercase}}.svg' /></td>
     </tr>
 </table>

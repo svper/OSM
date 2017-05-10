@@ -9,10 +9,9 @@ export class TeamsCtrl {
     sortProperty:string = "-id";
     constructor(public dataSvc: DataService) {
         this.dataSvc.getTeams().then((teams: Team[]) => {
-           /* for(let t of teams){
-                    this.transfers.push(new Team(t));
-            }*/
-            this.teams = teams;
+           for(let t of teams){
+                    this.teams.push(new Team(t));
+            }
         }, () => { 
             alert("call failed"); });
     }

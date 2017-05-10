@@ -7,8 +7,8 @@ export class Transfer {
     weekNr: number;
     startDay: number;
     timestamp: number;
-    date:Date;
-    player: Player;
+    date: Date;
+    player: any;
     destinationTeam: Team;
     sourceTeam: Team;
 
@@ -25,24 +25,19 @@ export class Transfer {
         this.price = parseInt(args.price);
         this.weekNr = parseInt(args.weekNr);
         this.startDay = parseInt(args.startDay);
-
+        if (args.player)
+            this.player = new Player(args.player);
+        if (this.sourceTeam)
+            this.sourceTeam = new Team(args.sourceTeam);
+        if (this.destinationTeam)
+            this.destinationTeam = new Team(args.destinationTeam);
         this.date = new Date(0);
-        this.date.setUTCSeconds(args.timestamp);
-
-        this.player = args.player;
-        this.sourceTeam = args.sourceTeam;
-        this.destinationTeam = args.destinationTeam;
-
-        this.calculate();
-    }
-
-    calculate = () => {
+        this.date.setUTCSeconds(parseInt(args.timestamp));
         this.valuePriceDiff = this.price - this.value;
 
-        if (this.sourceTeam.ranking > 0 && this.destinationTeam.ranking > 0)
-            this.premierTransfer = true;
-        else
-            this.premierTransfer = false;
+
+        if (this.sourceTeam && this.destinationTeam)
+            this.premierTransfer = this.sourceTeam.ranking > 0 && this.destinationTeam.ranking > 0;
     }
 
 }

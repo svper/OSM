@@ -11,6 +11,9 @@ if(isset($_GET["q"])){
 	case 'transfers':
 		echo json_encode(getTransfers());
 		break;
+	case 'teams':
+		echo json_encode(getTeams());
+		break;
 	default:
 		break;
 	}
@@ -26,7 +29,7 @@ function getTransfers(){
 	if ($conn->connect_error) {
 		die("Connection failed: " . $conn->connect_error);
 	}
-	$sql = "SELECT * FROM `transfer`";
+	$sql = "SELECT * FROM `transfer` ";
 	$conn->query('SET CHARACTER SET utf8');
 	$result = $conn->query($sql);
 	$transfers = [];
@@ -37,6 +40,23 @@ function getTransfers(){
 		$transfers[] = $obj;
 	}
     return $transfers;
+}
+
+function getTeams(){
+		// 	Create connection
+	$conn = connect();
+	// 	Check connection
+	if ($conn->connect_error) {
+		die("Connection failed: " . $conn->connect_error);
+	}
+	$sql = "SELECT * FROM `team` WHERE ranking > 0";
+	$conn->query('SET CHARACTER SET utf8');
+	$result = $conn->query($sql);
+	$teams = [];
+	while ($obj = mysqli_fetch_object($result)) {
+		$teams[] = getTeamDetails($obj->id);
+	}
+    return $teams;
 }
 
 function getPlayer($id){
@@ -81,6 +101,14 @@ function getTeamDetails($id){
 	$conn->query('SET CHARACTER SET utf8');
 	$result = $conn->query($sql);
 	while ($obj = mysqli_fetch_object($result)) {
+		$in = getTeamTransfersIn($obj->id);
+		$out = getTeamTransfersOut($obj->id);
+		$obj->transfersIn = $in->transfers;
+		$obj->transfersOut = $out->transfers;
+		$obj->valueIn = $in->value;
+		$obj->priceIn = $in->price;
+		$obj->valueOut = $out->value;
+		$obj->priceOut = $out->price;
 		return $obj;
 	}
 }
@@ -117,6 +145,37 @@ function insertTransfersToDB(){
     echo $counter ." transfers inserted";
 }
 
+function getTeamTransfersIn($id){
+	// 	Create connection
+	$conn = connect();
+	// 	Check connection
+	if ($conn->connect_error) {
+		die("Connection failed: " . $conn->connect_error);
+	}
+	$sql = "SELECT COUNT(*) as transfers,SUM(value) as value ,SUM(price) as price FROM `transfer` WHERE destinationTeam = ". $id;
+	$conn->query('SET CHARACTER SET utf8');
+	$result = $conn->query($sql);
+	$player= new stdClass();
+	while ($obj = mysqli_fetch_object($result)) {
+		return $obj;
+	}
+}
+
+function getTeamTransfersOut($id){
+	// 	Create connection
+	$conn = connect();
+	// 	Check connection
+	if ($conn->connect_error) {
+		die("Connection failed: " . $conn->connect_error);
+	}
+	$sql = "SELECT COUNT(*) as transfers,SUM(value) as value ,SUM(price) as price FROM `transfer` WHERE sourceTeam = ". $id;
+	$conn->query('SET CHARACTER SET utf8');
+	$result = $conn->query($sql);
+	$player= new stdClass();
+	while ($obj = mysqli_fetch_object($result)) {
+		return $obj;
+	}
+}
 
 function insertPlayer($player){
     $conn = connect();
