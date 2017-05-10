@@ -14,8 +14,8 @@
         <th ng-click="ctrl.sortProperty = '-player.statDef'">DEF</th>
         <th ng-click="ctrl.sortProperty = '-player.statOvr'">OVR</th>
     </tr>
-    <tr ng-repeat="transfer in ctrl.transfers | orderBy:ctrl.sortProperty" ng-class="{'premier':transfer.premierTransfer}">
-        <td>{{transfer.date | date:'dd-MM-yyyy HH:mm'}}</td>
+    <tr ng-repeat="transfer in ctrl.transfers | orderBy:ctrl.sortProperty" ng-class="{'premier':transfer.premierTransfer}" class="{{transfer.player.type}}">
+        <td>{{transfer.date | date:'dd-MM HH:mm'}}</td>
         <td ng-class="{'premier':transfer.sourceTeam.ranking > 0}">{{transfer.sourceTeam.name}}</td>
         <td ng-class="{'premier':transfer.destinationTeam.ranking > 0}">{{transfer.destinationTeam.name}}</td>
         <td>{{transfer.player.fullName}}</td>
@@ -24,9 +24,9 @@
         <td style="font-weight:bold">{{transfer.valuePriceDiff / 1000000 | number: 2}}</td>
         <td>{{transfer.player.type}}</td>
         <td>{{transfer.player.age}}</td>
-        <td>{{transfer.player.statAtt}}</td>
-        <td>{{transfer.player.statDef}}</td>
-        <td>{{transfer.player.statOvr}}</td>
+        <td class="statAtt">{{transfer.player.statAtt}}</td>
+        <td class="statDef">{{transfer.player.statDef}}</td>
+        <td class="statOvr">{{transfer.player.statOvr}}</td>
         <td class="nationality"><img ng-src='https://lipis.github.io/flag-icon-css/flags/4x3/{{transfer.player.nationality | lowercase}}.svg' /></td>
     </tr>
 </table>

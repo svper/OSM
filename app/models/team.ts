@@ -46,7 +46,7 @@ export class Team {
         this.budget = parseInt(args.budget);
         this.ranking = parseInt(args.ranking);
 
-
+        
         this.transfersIn = parseInt(args.transfersIn);
         this.valueIn = parseInt(args.valueIn);
         this.priceIn = parseInt(args.priceIn);

@@ -5,8 +5,8 @@
     <th ng-click="ctrl.sortProperty = 'ranking'">ranking</th>
     <th ng-click="ctrl.sortProperty = 'goal'">goal</th>
     <th ng-click="ctrl.sortProperty = 'budget'">budget</th>
-    <th ng-click="ctrl.sortProperty = '-transfersIn'">Transfers Out</th>
-    <th ng-click="ctrl.sortProperty = '-transfersOut'">Transfers In</th>
+    <th ng-click="ctrl.sortProperty = '-transfersOut'">Transfers Out</th>
+    <th ng-click="ctrl.sortProperty = '-transfersIn'">Transfers In</th>
     <th ng-click="ctrl.sortProperty = '-transfersNet'">transfersNet</th>
     <th ng-click="ctrl.sortProperty = '-valueOut'">valueOut</th>
     <th ng-click="ctrl.sortProperty = '-valueIn'">valueIn</th>
@@ -15,8 +15,8 @@
     <th ng-click="ctrl.sortProperty = '-priceIn'">priceIn</th>
     <th ng-click="ctrl.sortProperty = '-priceNet'">priceNet</th>
     </tr>
-    <tr ng-repeat="team in ctrl.teams | orderBy:ctrl.sortProperty | filter:ctrl.filter" ng-class="{'premier':transfer.sourceTeam.ranking > 0 && transfer.destinationTeam.ranking > 0}">
-        <td>{{team.name}}</td>
+    <tr ng-repeat="team in ctrl.teams | orderBy:ctrl.sortProperty" ng-class="{'premier':transfer.sourceTeam.ranking > 0 && transfer.destinationTeam.ranking > 0}">
+        <td><img src="{{team.logopath}}" class="teamlogo"/> {{team.name}}</td>
         <td>{{team.ranking}}</td>
         <td>{{team.goal}}</td>
         <td>{{team.budget / 1000000 | number: 2}}</td>

@@ -27,9 +27,9 @@ export class Transfer {
         this.startDay = parseInt(args.startDay);
         if (args.player)
             this.player = new Player(args.player);
-        if (this.sourceTeam)
+        if (args.sourceTeam)
             this.sourceTeam = new Team(args.sourceTeam);
-        if (this.destinationTeam)
+        if (args.destinationTeam)
             this.destinationTeam = new Team(args.destinationTeam);
         this.date = new Date(0);
         this.date.setUTCSeconds(parseInt(args.timestamp));

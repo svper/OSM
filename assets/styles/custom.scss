@@ -4,6 +4,24 @@ table{
             background:lighten(orange,40%);
         }
 
+        &.GKP,&.DEF{
+            .statDef{
+                font-weight:bold;
+            }
+        }
+
+        &.ATT{
+            .statAtt{
+                font-weight:bold;
+            }
+        }
+
+        &.MID{
+            .statOvr{
+                font-weight:bold;
+            }
+        }
+
         td{
             &.nationality{
                 img{
@@ -15,4 +33,9 @@ table{
             }
          }
     }
+}
+
+img.teamlogo{
+    height: 15px;
+    widows: 15px;
 }
