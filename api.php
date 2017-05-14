@@ -6,7 +6,14 @@ session_start();
 if(isset($_GET["q"])){
 	switch ($_GET["q"]) {
 	case 'process':
-		insertTransfersToDB();
+		$file = file_get_contents("./json/incoming.json");
+    	$transfers = json_decode($file);
+		insertTransfersToDB($transfers);
+		break;
+	case 'processFile':
+		$postdata = file_get_contents("php://input");
+		$transfers = json_decode($postdata);
+		insertTransfersToDB($transfers);
 		break;
 	case 'transfers':
 		echo json_encode(getTransfers());
@@ -21,6 +28,21 @@ if(isset($_GET["q"])){
 else{
 	echo "no query sent";
 }
+
+function insertTransfersToDB($transfers){
+    $counter = 0;
+    foreach($transfers as $transfer){
+        insertPlayer($transfer->player);
+        insertTeam($transfer->sourceTeam);
+        insertTeam($transfer->destinationTeam);
+        insertTransfer($transfer);
+
+        $counter++;
+    }
+
+    echo $counter ." transfers inserted";
+}
+
 
 function getTransfers(){
 		// 	Create connection
@@ -128,23 +150,6 @@ function getTransfer($id){
 	}
 }
 
-
-function insertTransfersToDB(){
-    $file = file_get_contents("./json/incoming.json");
-    $transfers = json_decode($file);
-    $counter = 0;
-    foreach($transfers as $transfer){
-        insertPlayer($transfer->player);
-        insertTeam($transfer->sourceTeam);
-        insertTeam($transfer->destinationTeam);
-        insertTransfer($transfer);
-
-        $counter++;
-    }
-
-    echo $counter ." transfers inserted";
-}
-
 function getTeamTransfersIn($id){
 	// 	Create connection
 	$conn = connect();
@@ -200,7 +205,7 @@ function insertPlayer($player){
                                     goals,
                                     assists) 
 		
-		 VALUES ('".$player->id."', '".$player->fullName."', '".escape($conn,$player->name)."', '".$player->position."', '".$player->statAtt."', '".$player->statDef."', '".$player->statOvr."', '".
+		 VALUES ('".$player->id."', '".escape($conn,$player->fullName)."', '".escape($conn,$player->name)."', '".$player->position."', '".$player->statAtt."', '".$player->statDef."', '".$player->statOvr."', '".
 			$player->age."', '".$player->leagueId."', '".$player->status."', '".$player->price."', '".
 			$player->value."', '".$player->nationality->code."', '".$player->goals."', '".$player->assists."')";
 			

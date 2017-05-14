@@ -9,10 +9,10 @@
         <th ng-click="ctrl.sortProperty = '-price'">Price</th>
         <th ng-click="ctrl.sortProperty = '-valuePriceDiff'">Diff</th>
         <th ng-click="ctrl.sortProperty = '-player.position'">Position</th>
-        <th ng-click="ctrl.sortProperty = '-player.age'">Age</th>
-        <th ng-click="ctrl.sortProperty = '-player.statAtt'">ATT</th>
-        <th ng-click="ctrl.sortProperty = '-player.statDef'">DEF</th>
-        <th ng-click="ctrl.sortProperty = '-player.statOvr'">OVR</th>
+        <th class="hidden-xs" ng-click="ctrl.sortProperty = '-player.age'">Age</th>
+        <th class="hidden-xs" ng-click="ctrl.sortProperty = '-player.statAtt'">ATT</th>
+        <th class="hidden-xs" ng-click="ctrl.sortProperty = '-player.statDef'">DEF</th>
+        <th class="hidden-xs" ng-click="ctrl.sortProperty = '-player.statOvr'">OVR</th>
     </tr>
     <tr ng-repeat="transfer in ctrl.transfers | orderBy:ctrl.sortProperty" ng-class="{'premier':transfer.premierTransfer}" class="{{transfer.player.type}}">
         <td>{{transfer.date | date:'dd-MM HH:mm'}}</td>
@@ -23,10 +23,10 @@
         <td>{{transfer.price / 1000000 | number: 2}}</td>
         <td style="font-weight:bold">{{transfer.valuePriceDiff / 1000000 | number: 2}}</td>
         <td>{{transfer.player.type}}</td>
-        <td>{{transfer.player.age}}</td>
-        <td class="statAtt">{{transfer.player.statAtt}}</td>
-        <td class="statDef">{{transfer.player.statDef}}</td>
-        <td class="statOvr">{{transfer.player.statOvr}}</td>
-        <td class="nationality"><img ng-src='https://lipis.github.io/flag-icon-css/flags/4x3/{{transfer.player.nationality | lowercase}}.svg' /></td>
+        <td class="hidden-xs">{{transfer.player.age}}</td>
+        <td class="statAtt hidden-xs">{{transfer.player.statAtt}}</td>
+        <td class="statDef hidden-xs">{{transfer.player.statDef}}</td>
+        <td class="statOvr hidden-xs">{{transfer.player.statOvr}}</td>
+        <td class="nationality hidden-xs"><img ng-src='https://lipis.github.io/flag-icon-css/flags/4x3/{{transfer.player.nationality | lowercase}}.svg' /></td>
     </tr>
 </table>

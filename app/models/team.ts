@@ -56,7 +56,7 @@ export class Team {
         this.priceOut = parseInt(args.priceOut);
 
         this.transfersNet = this.transfersIn - this.transfersOut;
-        this.valueNet = this.valueOut - this.valueIn;
+        this.valueNet =  this.valueIn - this.valueOut;
         this.priceNet = this.priceOut - this.priceIn;
     }
 }

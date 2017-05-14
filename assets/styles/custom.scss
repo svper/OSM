@@ -28,8 +28,24 @@ table{
                     width:15px;
                 }
             }
+            &.ranking{
+                color:red;
+                font-weight: bold;
+                &.pass{
+                    color:green;
+                }
+            }
             &.premier{
                 font-weight: bold;
+            }
+            &.key-member{
+                font-weight: bold;
+                 &.pos{
+                    color:green;
+                }
+                &.neg{
+                    color:red;
+                }
             }
          }
     }

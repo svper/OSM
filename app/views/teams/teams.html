@@ -17,7 +17,7 @@
     </tr>
     <tr ng-repeat="team in ctrl.teams | orderBy:ctrl.sortProperty" ng-class="{'premier':transfer.sourceTeam.ranking > 0 && transfer.destinationTeam.ranking > 0}">
         <td><img src="{{team.logopath}}" class="teamlogo"/> {{team.name}}</td>
-        <td>{{team.ranking}}</td>
+        <td class="ranking" ng-class="{'pass':team.ranking <= team.goal}">{{team.ranking}}</td>
         <td>{{team.goal}}</td>
         <td>{{team.budget / 1000000 | number: 2}}</td>
         <td>{{team.transfersOut}}</td>
@@ -25,9 +25,9 @@
         <td>{{team.transfersNet}}</td>
         <td>{{team.valueOut / 1000000 | number: 2}}</td>
         <td>{{team.valueIn / 1000000 | number: 2}}</td>
-        <td>{{team.valueNet / 1000000 | number: 2}}</td>
+        <td class="key-member" ng-class="{'pos':team.valueNet > 0,'neg': team.valueNet < 0}">{{team.valueNet / 1000000 | number: 2}}</td>
         <td>{{team.priceOut / 1000000 | number: 2}}</td>
         <td>{{team.priceIn / 1000000 | number: 2}}</td>
-        <td>{{team.priceNet / 1000000 | number: 2}}</td>
+        <td class="key-member" ng-class="{'pos':team.priceNet > 0,'neg': team.priceNet < 0}">{{team.priceNet / 1000000 | number: 2}}</td>
     </tr>
 </table><!--https://ismdj.scdn5.secure.raxcdn.com/static/libsass/plfpl/dist/pulselive/i/team-badges/svg/STK.svg-->
