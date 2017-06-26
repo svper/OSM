@@ -7,6 +7,8 @@
         <th ng-click="ctrl.sortProperty = '-price'">Price</th>
         <th ng-click="ctrl.sortProperty = '-maxSellPrice'">MaxSellPrice</th>
         <th ng-click="ctrl.sortProperty = '-possibleProfit'">PossibleProfit</th>
+        <th ng-click="ctrl.sortProperty = '-profitPercentage'">ProfitPercentage</th>
+        <th ng-click="ctrl.sortProperty = '-cost'">Cost</th>
         <th ng-click="ctrl.sortProperty = '-player.position'">Position</th>
         <th class="hidden-xs" ng-click="ctrl.sortProperty = '-player.age'">Age</th>
         <th class="hidden-xs" ng-click="ctrl.sortProperty = '-player.statAtt'">ATT</th>
@@ -21,6 +23,8 @@
         <td>{{transfer.price / 1000000 | number: 2}}</td>
         <td>{{transfer.maxSellPrice / 1000000 | number: 2}}</td>
         <td>{{transfer.possibleProfit / 1000000 | number: 2}}</td>
+        <td>{{transfer.profitPercentage | number: 2}}</td>
+        <td>{{transfer.cost / 1000000 | number: 2}}</td>
         <td>{{transfer.player.type}}</td>
         <td class="hidden-xs">{{transfer.player.age}}</td>
         <td class="statAtt hidden-xs">{{transfer.player.statAtt}}</td>
