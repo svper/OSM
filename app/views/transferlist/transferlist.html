@@ -1,0 +1,32 @@
+
+<table class="table">
+    <tr>
+        <th ng-click="ctrl.sortProperty = '-player.fullName'">Player</th>
+        <th ng-click="ctrl.sortProperty = '-team.name'">Team</th>
+        <th ng-click="ctrl.sortProperty = '-value'">Value</th>
+        <th ng-click="ctrl.sortProperty = '-price'">Price</th>
+        <th ng-click="ctrl.sortProperty = '-maxSellPrice'">MaxSellPrice</th>
+        <th ng-click="ctrl.sortProperty = '-possibleProfit'">PossibleProfit</th>
+        <th ng-click="ctrl.sortProperty = '-player.position'">Position</th>
+        <th class="hidden-xs" ng-click="ctrl.sortProperty = '-player.age'">Age</th>
+        <th class="hidden-xs" ng-click="ctrl.sortProperty = '-player.statAtt'">ATT</th>
+        <th class="hidden-xs" ng-click="ctrl.sortProperty = '-player.statDef'">DEF</th>
+        <th class="hidden-xs" ng-click="ctrl.sortProperty = '-player.statOvr'">OVR</th>
+        <th class="hidden-xs" ng-click="ctrl.sortProperty = '-player.trainingProgress'">TrainingProgress</th>
+    </tr>
+    <tr ng-repeat="transfer in ctrl.listedTransfers | orderBy:ctrl.sortProperty" class="{{transfer.player.type}}">
+        <td>{{transfer.player.fullName}}</td>
+        <td>{{transfer.team.name}}</td>
+        <td>{{transfer.value / 1000000 | number: 2}}</td>
+        <td>{{transfer.price / 1000000 | number: 2}}</td>
+        <td>{{transfer.maxSellPrice / 1000000 | number: 2}}</td>
+        <td>{{transfer.possibleProfit / 1000000 | number: 2}}</td>
+        <td>{{transfer.player.type}}</td>
+        <td class="hidden-xs">{{transfer.player.age}}</td>
+        <td class="statAtt hidden-xs">{{transfer.player.statAtt}}</td>
+        <td class="statDef hidden-xs">{{transfer.player.statDef}}</td>
+        <td class="statOvr hidden-xs">{{transfer.player.statOvr}}</td>
+        <td class="trainingProgress hidden-xs">{{transfer.player.trainingProgress}}</td>
+        <td class="nationality hidden-xs"><img ng-src='https://lipis.github.io/flag-icon-css/flags/4x3/{{transfer.player.nationality | lowercase}}.svg' /></td>
+    </tr>
+</table>

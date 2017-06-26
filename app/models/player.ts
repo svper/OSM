@@ -15,6 +15,8 @@ export class Player {
     goals: number;
     assists: number;
     type: string;
+    trainingProgress:number;
+    traningForecast:number;
 
     constructor(args: any) {
         this.id = parseInt(args.id);
@@ -33,6 +35,9 @@ export class Player {
 
         this.goals = parseInt(args.goals);
         this.assists = parseInt(args.assists);
+
+        this.trainingProgress = parseInt(args.trainingProgress);
+        this.traningForecast = parseInt(args.traningForecast);
 
 
         switch (this.position) {

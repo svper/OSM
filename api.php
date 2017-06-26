@@ -15,8 +15,17 @@ if(isset($_GET["q"])){
 		$transfers = json_decode($postdata);
 		insertTransfersToDB($transfers);
 		break;
+			case 'processTransferList':
+		$postdata = file_get_contents("php://input");
+		$transfers = json_decode($postdata);
+		clearListedTransfers();
+		insertTransferListToDB($transfers);
+		break;
 	case 'transfers':
 		echo json_encode(getTransfers());
+		break;
+	case 'transferlist':
+		echo json_encode(getTransferList());
 		break;
 	case 'teams':
 		echo json_encode(getTeams());
@@ -43,6 +52,20 @@ function insertTransfersToDB($transfers){
     echo $counter ." transfers inserted";
 }
 
+function insertTransferListToDB($transfers){
+    $counter = 0;
+    foreach($transfers as $transfer){
+        insertPlayer($transfer->player);
+        insertTeam($transfer->team);
+        insertListedTransfer($transfer);
+
+        $counter++;
+    }
+
+    echo $counter ." possible transfers inserted";
+}
+
+
 
 function getTransfers(){
 		// 	Create connection
@@ -59,6 +82,25 @@ function getTransfers(){
 		$obj->player = getPlayer($obj->player);
 		$obj->destinationTeam = getTeam($obj->destinationTeam);
 		$obj->sourceTeam = getTeam($obj->sourceTeam);
+		$transfers[] = $obj;
+	}
+    return $transfers;
+}
+
+function getTransferList(){
+		// 	Create connection
+	$conn = connect();
+	// 	Check connection
+	if ($conn->connect_error) {
+		die("Connection failed: " . $conn->connect_error);
+	}
+	$sql = "SELECT * FROM `listed_transfer` ";
+	$conn->query('SET CHARACTER SET utf8');
+	$result = $conn->query($sql);
+	$transfers = [];
+	while ($obj = mysqli_fetch_object($result)) {
+		$obj->player = getPlayer($obj->playerid);
+		$obj->team = getTeam($obj->teamid);
 		$transfers[] = $obj;
 	}
     return $transfers;
@@ -203,12 +245,45 @@ function insertPlayer($player){
 									value,
 									nationality,
                                     goals,
-                                    assists) 
+                                    assists,
+									trainingProgress,
+									trainingForecast) 
 		
 		 VALUES ('".$player->id."', '".escape($conn,$player->fullName)."', '".escape($conn,$player->name)."', '".$player->position."', '".$player->statAtt."', '".$player->statDef."', '".$player->statOvr."', '".
 			$player->age."', '".$player->leagueId."', '".$player->status."', '".$player->price."', '".
-			$player->value."', '".$player->nationality->code."', '".$player->goals."', '".$player->assists."')";
+			$player->value."', '".$player->nationality->code."', '".$player->goals."', '".$player->assists."', '".$player->trainingProgress ."', '".$player->trainingForecast ."' )";
 			
+			$conn->query('SET CHARACTER SET utf8');
+			$conn->query($sql);
+		
+}
+
+
+function clearListedTransfers(){
+	 $conn = connect();
+    // 	Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+		$conn->query('DELETE FROM `listed_transfer`');ransfer->player->value."', '".$transfer->type."', '".$transfer->transferPrice."')";
+		$conn->query('SET CHARACTER SET utf8');
+		$conn->query($sql);
+}
+function insertListedTransfer($transfer){
+    $conn = connect();
+    // 	Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+			$sql = "INSERT INTO `listed_transfer` (id,
+									playerid,
+									teamid,
+									price,
+									value,
+									type,
+									transferPrice) 
+		 VALUES ('".$transfer->id."', '".$transfer->player->id."', '".$transfer->team->id."', '".$transfer->price."', '".
+		 $transfer->player->value."', '".$transfer->type."', '".$transfer->transferPrice."')";
 			$conn->query('SET CHARACTER SET utf8');
 			$conn->query($sql);
 		

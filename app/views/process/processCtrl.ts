@@ -6,20 +6,18 @@ export class ProcessCtrl {
     static $inject = [DataService.iid];
     jsonText:string;
     constructor(public dataSvc: DataService) {
-       /* this.dataSvc.getTeams().then((teams: Team[]) => {
-           for(let t of teams){
-                    this.teams.push(new Team(t));
-            }
-        }, () => { 
-            alert("call failed"); });*/
     }
 
     getJsonFromText =() =>{
         console.log(JSON.parse(this.jsonText));
     }
 
-    process = () => {
-        this.dataSvc.processData(JSON.parse(this.jsonText));
+    processDone = () => {
+        this.dataSvc.processDone(JSON.parse(this.jsonText));
+    }
+
+     processList = () => {
+        this.dataSvc.processList(JSON.parse(this.jsonText));
     }
 
 }
