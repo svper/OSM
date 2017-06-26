@@ -265,7 +265,7 @@ function clearListedTransfers(){
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
-		$conn->query('DELETE FROM `listed_transfer`');ransfer->player->value."', '".$transfer->type."', '".$transfer->transferPrice."')";
+		$conn->query('DELETE FROM `listed_transfer`');
 		$conn->query('SET CHARACTER SET utf8');
 		$conn->query($sql);
 }
