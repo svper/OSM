@@ -15,10 +15,15 @@ if(isset($_GET["q"])){
 		$transfers = json_decode($postdata);
 		insertTransfersToDB($transfers);
 		break;
-			case 'processTransferList':
+	case 'processTransferList':
 		$postdata = file_get_contents("php://input");
 		$transfers = json_decode($postdata);
 		clearListedTransfers();
+		insertTransferListToDB($transfers);
+		break;
+	case 'addTransferList':
+		$postdata = file_get_contents("php://input");
+		$transfers = json_decode($postdata);
 		insertTransferListToDB($transfers);
 		break;
 	case 'transfers':

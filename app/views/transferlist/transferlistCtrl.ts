@@ -1,7 +1,7 @@
 'use strict';
 
 import { DataService } from "../../services/dataService";
-import { Player, Team, Transfer,ListedTransfer } from "../../models/models";
+import { Player, Team, Transfer, ListedTransfer } from "../../models/models";
 export class TransferListCtrl {
     static iid = "TransferListCtrl";
     static $inject = [DataService.iid];
@@ -18,4 +18,17 @@ export class TransferListCtrl {
         });
     }
 
+    getPercentageClass = (percentage: number) => {
+        if (percentage < 50) {
+            return "red";
+        }
+        else if (percentage < 70)
+            return "orange";
+        else if (percentage < 85)
+            return "yellow";
+        else if (percentage < 95)
+            return "green"
+        else
+            return "darkgreen";
+    }
 }

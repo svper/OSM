@@ -23,6 +23,24 @@ table{
         }
 
         td{
+            &.percentage{
+                font-weight: bold;
+                &.red{
+                    color:red;
+                }
+                &.orange{
+                    color:orange;
+                }
+                &.yellow{
+                    color:gold;
+                }
+                &.green{
+                    color:green;
+                }
+                &.darkgreen{
+                    color:darkgreen;
+                }
+            }
             &.nationality{
                 img{
                     width:15px;

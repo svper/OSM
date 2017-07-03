@@ -51,6 +51,16 @@ export class DataService {
     })
   }
 
+  public addList= (transfers) => {
+    var data = $.param({
+      json: JSON.stringify(transfers)
+
+    });
+    this.$http.post(`./api.php?q=addTransferList`, transfers).success((response, status) => {
+      alert(response);
+    })
+  }
+
 
 
 }

@@ -20,4 +20,8 @@ export class ProcessCtrl {
         this.dataSvc.processList(JSON.parse(this.jsonText));
     }
 
+     addList = () => {
+        this.dataSvc.addList(JSON.parse(this.jsonText));
+    }
+
 }
